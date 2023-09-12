@@ -7,7 +7,7 @@ const testimonials = [
   [
     {
       content:
-        "Their technical skills and careful work were really important in making a website that shows tournament news, live scores, and lets people sign up easily. It's thanks to their efforts that our volleyball community has thrived."
+        "Their technical skills and careful work were really important in making a website that shows tournament news, live scores, and lets people sign up easily. Its thanks to their efforts that our volleyball community has thrived."
       ,
       author: {
         name: 'Viral Shah',
@@ -29,7 +29,7 @@ const testimonials = [
   [
     {
       content:
-        "The team of Wellbenix have done great work on the 'Nasir Sir and Classes' application. How we handle tuition payments has been changed by their skill in software development. The comprehensive annual and weekly reports are very important for our financial planning."
+        "The team of Wellbenix have done great work on the Nasir Sir and Classes application. How we handle tuition payments has been changed by their skill in software development. The comprehensive annual and weekly reports are very important for our financial planning."
       ,
       author: {
         name: 'Nasir Sir',

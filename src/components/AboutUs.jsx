@@ -36,7 +36,7 @@ export default function AboutUs() {
           </div>
           <div className="pt-3 w-full flex justify-center xs:items-center sm:items-start md:justify-start">
             <button className="font-semibold bg-[#08203a] text-white rounded-md px-7 py-3">
-              Let's Connect
+              Connect With Us
             </button>
           </div>
         </div>
