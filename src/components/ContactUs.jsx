@@ -54,13 +54,14 @@ export function ContactUs() {
             })
     }
 
-    const Toggle = (i) => {
-        if(selected === i){
-            return setSelected(null)
-        }
+    // const Toggle = (i) => {
+    //     if(selected === i){
+    //         return setSelected(null)
+    //     }
 
-        setSelected(i)
-    }
+    //     setSelected(i)
+    // }
+    
     return (
         <>
             <div id='ContactUs' className="xs:px-10 xs:py-14 xl:px-28 xl:py-28 flex xs:flex-col lg:flex-row lg:space-y-0 xl:space-y-0 items-start justify-start w-full lg:space-x-10">

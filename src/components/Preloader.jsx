@@ -1,11 +1,12 @@
-import React from 'react'
+import Image from 'next/image'
+import avatarImage from '@/images/logos/logo.png'
 
-function Preloader() {
+export default function Testimonials() {
   return (
-    <div className='w-full min-h-screen flex justify-center items-center bg-[#F1EEE9]'>
-      <img src="images/logo.png" className='w-40 sm:w-48 md:w-56 animate-pulse' />
-    </div>
+    <>
+      <div className='w-full min-h-screen flex justify-center items-center bg-[#F1EEE9]'>
+        <Image src={avatarImage} alt="logo" />
+      </div>
+    </>
   )
 }
-
-export default Preloader
