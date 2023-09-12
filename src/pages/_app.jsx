@@ -8,18 +8,18 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export default function App({ Component, pageProps }) {
 
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false);
   
-  useEffect(() => {
-    Router.events.on('routeChangeStart', () => setIsLoading(true));
-    Router.events.on('routeChangeComplete', () => setIsLoading(false));
-    Router.events.on('routeChangeError', () => setIsLoading(false));
-    return () => {
-      Router.events.off('routeChangeStart', () => setIsLoading(true));
-      Router.events.off('routeChangeComplete', () => setIsLoading(false));
-      Router.events.off('routeChangeError', () => setIsLoading(false));
-    };
-  }, [Router.events]);
+  // useEffect(() => {
+  //   Router.events.on('routeChangeStart', () => setIsLoading(true));
+  //   Router.events.on('routeChangeComplete', () => setIsLoading(false));
+  //   Router.events.on('routeChangeError', () => setIsLoading(false));
+  //   return () => {
+  //     Router.events.off('routeChangeStart', () => setIsLoading(true));
+  //     Router.events.off('routeChangeComplete', () => setIsLoading(false));
+  //     Router.events.off('routeChangeError', () => setIsLoading(false));
+  //   };
+  // }, [Router.events]);
 
   useEffect(() => {
     if (process.env.NODE_ENV === "development") {
