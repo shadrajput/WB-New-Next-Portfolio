@@ -12,7 +12,7 @@ export function Hero() {
         <div className='absolute right-0 bottom-0 xs:top-0 xs:w-full w-[76%] lg:w-[80%] xl:w-[73%]  '>
           <Image src={Background} alt="fess manager logo" className='bg-cover ' />
         </div>
-        <div className="w-full bg-gradient-to-r from-[#060922] to-transparent xs:h-60 sm:h-[425px] md:h-[510px] lg:h-[549px] xl:h-full absolute">
+        <div className="w-full bg-gradient-to-r from-[#060922] to-transparent xs:h-[250px] sm:h-[425px] md:h-[510px] lg:h-[549px] xl:h-full absolute">
           .
         </div>
         <div className="flex flex-col items-start absolute xs:top-16 xs:left-10 sm:top-20 sm:left-20 md:top-28 xl:top-[25%] xl:left-32 xs:space-y-3 xl:space-y-8">

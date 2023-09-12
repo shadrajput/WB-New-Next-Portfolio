@@ -65,7 +65,7 @@ export function ContactUs() {
     return (
         <>
             <div id='ContactUs' className="xs:px-10 xs:py-14 xl:px-28 xl:py-28 flex xs:flex-col lg:flex-row lg:space-y-0 xl:space-y-0 items-start justify-start w-full lg:space-x-10">
-                <div className="xl:w-[50%] xs:w-full ">
+                <div className="xl:w-[50%] xs:w-full  ">
                     <h1 className="font-bold xs:text-3xl xs:text-center xl:text-4xl">Freequently Asked Question</h1>
                     <div className="grid grid-rows-5 mt-10 xl:mt-14 gap-7">
                         {
@@ -93,7 +93,7 @@ export function ContactUs() {
                         }
                     </div>
                 </div>
-                <div className="xl:w-[50%] xs:w-full ">
+                <div className="xl:w-[50%] xs:w-full xs:pt-14 sm:pt-0 ">
                     <h1 className="font-bold xs:text-3xl xs:text-center xl:text-4xl">Make An Free IT Consultant</h1>
                     <div className="w-full mt-14">
                         <form action="" className="w-full" onSubmit={Sendmail} >
