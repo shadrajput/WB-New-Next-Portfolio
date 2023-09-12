@@ -1,4 +1,5 @@
-import { Head, Html, Main, NextScript } from 'next/head'
+import { Head } from 'next/document'
+import { Html, Main, NextScript } from 'next/head'
 import clsx from 'clsx'
 
 export default function Document(props) {
