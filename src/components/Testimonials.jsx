@@ -134,7 +134,7 @@ export default function Testimonials() {
                         </div>
                         <blockquote className="relative">
                           <p className="text-lg tracking-tight text-slate-900">
-                            "{testimonial.content}"
+                            {testimonial.content}
                           </p>
                         </blockquote>
                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
