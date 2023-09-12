@@ -1,5 +1,5 @@
 import { Head } from 'next/document'
-import { Html, Main, NextScript } from 'next/head'
+import { Html, Main, NextScript } from 'next/document'
 import clsx from 'clsx'
 
 export default function Document(props) {

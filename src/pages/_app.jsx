@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export default function App({ Component, pageProps }) {
 
-  // const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   
   // useEffect(() => {
   //   Router.events.on('routeChangeStart', () => setIsLoading(true));
