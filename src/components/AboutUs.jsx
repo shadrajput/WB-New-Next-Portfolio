@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import wb from '../../public/images/aboutUs.jpg'
-import { FiUsers } from "react-icons/fi"
+import { AiOutlineSolution } from "react-icons/ai"
+import { FaUsers } from "react-icons/fa"
 
 export default function AboutUs() {
   return (
@@ -11,26 +12,26 @@ export default function AboutUs() {
             <h1 className="uppercase bg-[#2730ed24] mb-5 text-center text-[#0125ca] flex justify-center items-center rounded-md py-1 px-5 text-sm font-semibold ">WHO WE ARE</h1>
           </div>
           <h1 className="text-slate-900 xs:text-3xl xs:text-center sm:text-center md:text-start xl:text-4xl text-left font-bold py-5">
-            We Team of <span className='text-[#0125ca]'> Experience</span><br /> It Specialities
+            We Team of <span className='text-[#0125ca]'> Experience</span><br /> IT Specialities
           </h1>
           <p className="xs:text-center sm:text-center md:text-start">Wellbenix is a Ecommerce Solutions Company. Focused on creating <br />technology solutions for real-lifeEcommerce problems.</p>
           <div className=' xs:py-5 xl:p-4'>
             <div className='flex xs:flex-col sm:flex-row xs:justify-center xs:items-center sm:items-start xl:justify-start xl:items-start space-x-5 p-3'>
-              <div className='bg-[#ebeaff] xs:w-14 xs:h-14 w-10 h-10 flex justify-center items-center mt-2 text-[#0125ca] rounded-md'>
-                <FiUsers className='xs:text-xl text-lg' />
+              <div className='bg-[#ebeaff] xs:w-14 xs:h-14 sm:w-16 sm:h-10 flex justify-center items-center mt-2 text-[#0125ca] rounded-md'>
+                <FaUsers className='xs:text-xl text-lg ' />
               </div>
-              <div>
-                <h1 className="font-bold xs:text-xl xs:py-2 text-lg xs:text-center sm:text-start">Expert Team Member</h1>
-                <p className='xs:text-center sm:text-start sm:text-sm'>What separates theme from all other web design agencies is the <br />ability to offer the most Friendly Experience you can imagine.</p>
+            <div>
+                <h1 className="font-bold xs:text-xl xs:py-2 text-lg xs:text-center sm:text-start">Diverse Expertise</h1>
+                <p className='xs:text-center sm:text-start sm:text-sm'>Our team comprises experts with diverse skill sets and backgrounds, ensuring a holistic approach to solving your IT challenges.</p>
               </div>
             </div>
             <div className='flex xs:flex-col sm:flex-row xs:justify-center xs:items-center sm:items-start xl:justify-start xl:items-start space-x-5 p-3'>
-              <div className='bg-[#ebeaff] xs:w-14 xs:h-14 w-10 h-10 flex justify-center items-center mt-2 text-[#0125ca] rounded-md'>
-                <FiUsers className='xs:text-xl text-lg' />
+              <div className='bg-[#ebeaff] xs:w-14 xs:h-14 sm:w-16 sm:h-10 flex justify-center items-center mt-2 text-[#0125ca] rounded-md'>
+                <AiOutlineSolution className='text-2xl' />
               </div>
               <div>
-                <h1 className="font-bold xs:text-xl xs:py-2 text-lg xs:text-center sm:text-start">Expert Team Member</h1>
-                <p className='xs:text-center sm:text-start sm:text-sm'>What separates theme from all other web design agencies is the <br />ability to offer the most Friendly Experience you can imagine.</p>
+                <h1 className="font-bold xs:text-xl xs:py-2 text-lg xs:text-center sm:text-start">Client-Centric Solutions</h1>
+                <p className='xs:text-center sm:text-start sm:text-sm'>We're committed to delivering client-centric IT solutions, tailored to your unique needs, with a focus on excellence and innovation.</p>
               </div>
             </div>
           </div>

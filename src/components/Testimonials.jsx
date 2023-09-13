@@ -43,7 +43,7 @@ const testimonials = [
       ,
       author: {
         name: 'Nasir Sir ',
-        role: 'CEO at Alif School',
+        role: 'HOD at Alif School',
         image: avatarImage,
       },
     },

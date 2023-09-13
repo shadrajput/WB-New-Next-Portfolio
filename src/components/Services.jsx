@@ -64,9 +64,9 @@ export default function Services() {
                     </div>
 
                     <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold">User Genrated Content</h1>
+                        <h1 className="text-slate-900 text-lg font-semibold">User Generated Content</h1>
                         <div className="py-7 flex items-start relative">
-                            <p className="text-sm text-black pr-20">Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            <p className="text-sm text-black pr-20">After being satisfied with a product or service, a user records a review in a video.</p>
                             <FaPhotoVideo className="absolute text-5xl right-0 text-[#0125ca]" />
                         </div>
                         <div className="flex items-center text-[#0125ca] font-semibold">
