@@ -1,30 +1,29 @@
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image";
-import HeroImage from '../../public/images/19368.png'
-import Background from '../../public/images/male-female-office-workers.jpg'
+import Background from '../../public/images/young-person-during-intership.jpg'
 
 
 export function Hero() {
 
   return (
     <>
-      <div className='xl:h-screen xs:pb-32 sm:pb-52z md:pb-72 lg:pb-80 w-full bg-[#f1f3f4] relative'>
-        <div className='absolute right-0 bottom-0 xs:top-0 xs:w-full w-[76%] lg:w-[80%] xl:w-[73%]  '>
+      <div className='xs:h-[49%] xl:h-screen w-full overflow-hidden'>
+        <div className='right-0 bottom-0 xs:top-0 w-full bg-cover relative '>
           <Image src={Background} alt="fess manager logo" className='bg-cover ' />
         </div>
-        <div className="w-full bg-gradient-to-r from-[#060922]  to-transparent xs:h-[276px] sm:h-[425px] md:h-[510px] lg:h-[549px] xl:h-full absolute">
+      {/* <div className="w-full bg-gradient-to-r from-[#060922] top-0 xs:h-[220px]  to-transparent sm:h-[425px] md:h-[510px] lg:h-[680px] xl:h-screen absolute">
           .
-        </div>
-        <div className="flex flex-col items-start absolute xs:top-16 xs:left-10 sm:top-20 sm:left-20 md:top-28 xl:top-[25%] xl:left-32 xs:space-y-3 xl:space-y-8">
+        </div> */}
+        <div className="flex flex-col items-start absolute xs:top-[10%] xs:left-10 sm:top-20 sm:left-20 md:top-28 lg:top-[30%] xl:top-[25%] xl:left-32 xs:space-y-3 xl:space-y-8">
           <div className="xs:space-y-0 space-y-10">
-            <h1 className="text-white text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
+            <h1 className="text-white xs:text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
               Best IT <span className="text-[#372fff] ">Solution</span><br />
             </h1>
-            <h1 className="text-white text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
+            <h1 className="text-white xs:text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
               Company
             </h1>
           </div>
-          <p className="text-gray-200 sm:py-3 text-sm xl:text-base xs:hidden sm:block ">High-Converting Ecommerce Site Development to
+          <p className="text-gray-200 sm:py-3 text-sm xl:text-base xs:text-black sm:text-white xs:hidden sm:block ">High-Converting Ecommerce Site Development to
             Watch Your <br /> Business Soar to New Heights.
           </p>
           <div className="">

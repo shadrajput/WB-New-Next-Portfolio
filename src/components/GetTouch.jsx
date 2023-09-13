@@ -1,5 +1,4 @@
 import Image from "next/image";
-import image from "../../public/images/bedroom-interior.jpg"
 import React, { useState } from "react";
 import { toast } from 'react-toastify'
 

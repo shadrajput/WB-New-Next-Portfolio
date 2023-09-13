@@ -14,7 +14,7 @@ import C9 from '@/images/logos/aldeenar.png'
 
 export default function Clients() {
     return (
-        <div className=" xs:py-14 xs:mt-28 sm:mt-40 xl:mt-0 sm:py-20 xs:flex-col lg:flex-row flex items-start justify-center xs:px-10 xl:px-28 lg:space-x-20 ">
+        <div className="sm:py-5 xs:flex-col lg:flex-row flex items-start justify-center xs:px-10 xl:px-28 lg:space-x-20 ">
             <div className='grid  md:grid-cols-4 lg:grid-cols-3 grid-cols-3 justify-center items-center xs:gap-5 lg:w-[50%] xl:w-[55%] xs:order-2 lg:order-1 xs:pt-10 '>
                 <div className='w-full h-full xs:p-2 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center'>
                     <Image src={C1} alt="fess manager logo" className='' />

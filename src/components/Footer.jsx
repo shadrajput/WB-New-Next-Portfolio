@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Logo from "../../public/images/logo.png"
-import Background from "../../public/images/h3-bg-footer.jpg"
 import Link from 'next/link'
 import { MdLocationOn } from "react-icons/md"
 import { FiPhoneCall } from "react-icons/fi"
