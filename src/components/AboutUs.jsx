@@ -5,7 +5,7 @@ import { FiUsers } from "react-icons/fi"
 export default function AboutUs() {
   return (
     <>
-      <div id="AboutUs" className=" xs:py-16 xs:px-10 py-28 xl:px-28 flex xs:flex-col md:flex-row items-center lg:space-x-10 ">
+      <div id="AboutUs" className=" xs:py-16 xs:px-10 xl:py-28  xl:px-28 flex xs:flex-col md:flex-row items-center lg:space-x-10 ">
         <div className="flex flex-col w-full">
           <div className='flex w-full justify-center items-center lg:justify-start'>
             <h1 className="uppercase bg-[#2730ed24] mb-5 text-center text-[#0125ca] flex justify-center items-center rounded-md py-1 px-5 text-sm font-semibold ">WHO WE ARE</h1>

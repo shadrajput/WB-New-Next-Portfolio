@@ -8,7 +8,7 @@ export function Hero() {
 
   return (
     <>
-      <div className='xl:h-screen xs:pb-32 sm:pb-52 md:pb-72 lg:pb-80 w-full bg-[#f1f3f4] relative'>
+      <div className='xl:h-screen xs:pb-32 sm:pb-52z md:pb-72 lg:pb-80 w-full bg-[#f1f3f4] relative'>
         <div className='absolute right-0 bottom-0 xs:top-0 xs:w-full w-[76%] lg:w-[80%] xl:w-[73%]  '>
           <Image src={Background} alt="fess manager logo" className='bg-cover ' />
         </div>
@@ -18,7 +18,7 @@ export function Hero() {
         <div className="flex flex-col items-start absolute xs:top-16 xs:left-10 sm:top-20 sm:left-20 md:top-28 xl:top-[25%] xl:left-32 xs:space-y-3 xl:space-y-8">
           <div className="xs:space-y-0 space-y-10">
             <h1 className="text-white text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
-              Best IT <span className="text-[#372fff] ">Solutio</span><br />
+              Best IT <span className="text-[#372fff] ">Solution</span><br />
             </h1>
             <h1 className="text-white text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
               Company
