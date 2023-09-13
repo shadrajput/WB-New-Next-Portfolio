@@ -19,15 +19,13 @@ export default function Subscribe() {
                             Know more about us.
                         </h2>
                         <p className="tracking-tight text-start xs:text-center text-slate-500 text-sm xl:text-start">
-                            Our software is so simple that people can’t help but fall in love
-                            with it. Simplicity is easy when you just skip tons of
-                            mission-critical features.
+                            Wellbenix Solutions has built various Ecommerce Website which are helping our clients to genrate 5000$+/Month on ROI. It is really heartening to see how our work has been useful to them and we strive to contribute even more to their success.
                         </p>
                         <div className="py-6">
                             <h1 className="text-slate-900 text-xl font-semibold xs:text-center xl:text-start">+91 9328027580</h1>
                             <h1 className="uppercase text-[#0125ca] xs:text-center font-semibold text-start rounded-md py-1 text-sm xl:text-start ">
                                 CALL US ANYTIME</h1>
-                            <p className="text-[#141b35] xs:text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                            <p className="text-[#141b35] xs:text-center sm:text-start">For all IT related work and taking your business on online</p>
                         </div>
                     </div>
                     <div className="xl:w-[52%] xs:w-full px-10 bg-[#141b35] py-10 rounded-md">
@@ -36,9 +34,7 @@ export default function Subscribe() {
                                 <span className="font-extrabold ml-3 text-transparent bg-clip-text bg-gradient-to-r from-[#d5ff54] to-[#addeff]" >Today</span>
                             </h1>
                             <p className="mt-4 text-base tracking-tight text-center text-slate-500">
-                                Our software is so simple that people can’t help but fall in love
-                                with it. Simplicity is easy when you just skip tons of
-                                mission-critical features.
+                                Appropriate for your specific business, making it easy for you to have quality IT services.
                             </p>
                         </div>
                         <div className="py-10 text-center ">

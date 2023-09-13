@@ -117,7 +117,7 @@ export default function Projects() {
                 <div className="grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 pt-10">
                     {ProjectData.map((Item, columnIndex) => (
                         <div className="h-3/4 relative group cursor-pointer " key={columnIndex} >
-                            <div className="bg-[#06092295] hidden group-hover:block duration-500 w-full h-[230px] rounded-md absolute z-10">
+                            <div className="bg-[#06092295] hidden group-hover:block duration-500 w-full xs:h-[165px] xl:h-[230px] absolute z-10">
                                 <div className="flex flex-col items-center justify-center w-full h-full space-y-2 ">
                                     <h1 className="text-white text-[25px] font-semibold">{Item.Name}</h1>
                                     <h2 className="text-white font-semibold">{Item.language}</h2>

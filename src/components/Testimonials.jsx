@@ -60,7 +60,7 @@ const testimonials = [
     },
     {
       content:
-      "They have really outdone themselves with the 'Al-Deenar' ecommerce website. Our customers now have access to an outstanding variety of Indian clothings for women, thanks to their web building abilities. We are now the go-to place for formal clothes for Indian weddings and festivities."
+        "They have really outdone themselves with the 'Al-Deenar' ecommerce website. Our customers now have access to an outstanding variety of Indian clothings for women, thanks to their web building abilities. We are now the go-to place for formal clothes for Indian weddings and festivities."
       ,
       author: {
         name: 'Mehfooz Bhai',
@@ -110,9 +110,8 @@ export default function Testimonials() {
               Appreciations From Our Satisfied Customers.
             </h2>
             <p className="mt-4 text-base tracking-tight text-center text-slate-500">
-              Our software is so simple that people can’t help but fall in love
-              with it. Simplicity is easy when you just skip tons of
-              mission-critical features.
+
+              We value the experimentation, the reformation of the message, and the smart incentives. We offer a variety of services and solutions Worldwide and this is at the heart of how we approach our.
             </p>
           </div>
         </div>
