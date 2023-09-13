@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <>
       <div className='xl:h-screen w-full overflow-hdden '>
-        <div className="xs:h-1/2 relative">
+        <div className="xs:h-1/2 xl:h-screen relative overflow-hidden">
           <div className='right-0 bottom-0 xs:top-0 w-full bg-cover '>
             <Image src={Background} alt="fess manager logo" className='bg-cover ' />
           </div>
