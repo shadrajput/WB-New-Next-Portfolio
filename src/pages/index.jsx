@@ -33,8 +33,8 @@ export default function Home() {
       <Head>
         <title>Wellbenix - IT Solution</title>
         <meta
-          name="Wellbenix"
-          content="Best IT Company" />
+          name="Wellbenix "
+          content="Best E-commerce webiste development Company" />
       </Head>
       <Header />
       <main>
