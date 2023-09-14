@@ -30,8 +30,8 @@ export default function AboutUs() {
                 <AiOutlineSolution className='text-2xl' />
               </div>
               <div>
-                <h1 className="font-bold xs:text-xl xs:py-2 text-lg xs:text-center sm:text-start">Client-Centric Solutions</h1>
-                <p className='xs:text-center sm:text-start sm:text-sm'>We're committed to delivering client-centric IT solutions, tailored to your unique needs, with a focus on excellence and innovation.</p>
+                <h1 className="font-bold xs:text-xl xs:py-2 text-lg xs:text-center sm:text-start">Client Centric Solutions</h1>
+                <p className='xs:text-center sm:text-start sm:text-sm'>We're committed to delivering client-centric IT solutions, tailored to your unique needs, with a focus on excellence and and innovation.</p>
               </div>
             </div>
           </div>
