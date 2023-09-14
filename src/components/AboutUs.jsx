@@ -31,7 +31,7 @@ export default function AboutUs() {
               </div>
               <div>
                 <h1 className="font-bold xs:text-xl xs:py-2 text-lg xs:text-center sm:text-start">Client Centric Solutions</h1>
-                <p className='xs:text-center sm:text-start sm:text-sm'>We are committed to delivering client centric IT solutions, tailored to your unique needs, with a focus on excellence.</p>
+                <p className="xs:text-center sm:text-start sm:text-sm">We are committed to delivering client centric IT solutions, tailored to your unique needs, with a focus on excellence.</p>
               </div>
             </div>
           </div>
