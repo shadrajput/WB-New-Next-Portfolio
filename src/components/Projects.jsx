@@ -114,11 +114,11 @@ export default function Projects() {
                     <h1 className="text-slate-900 text-[35px] xs:text-center text-left font-popins font-semibold py-5">
                         Some success stories of our <br /> <span className="text-[#0125ca]">project</span> </h1>
                 </div>
-                <div className="grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 pt-10">
+                <div className="grid xs:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 pt-10">
                     {ProjectData.map((Item, columnIndex) => (
-                        <div className="h-3/4 relative group cursor-pointer " key={columnIndex} >
-                            <div className="bg-[#06092295] hidden group-hover:block duration-500 w-full xs:h-[165px] xl:h-[230px] absolute z-10">
-                                <div className="flex flex-col items-center justify-center w-full h-full space-y-2 ">
+                        <div className=" h-[95%] relative group cursor-pointer overflow-hidden shadow-lg" key={columnIndex} >
+                            <div className="bg-[#06092295] hidden group-hover:block duration-500 w-full  xs:h-[165px] sm:h-full xl:h-[200px] absolute z-10 overflow-hidden">
+                                <div className="flex flex-col items-center justify-center w-full h-full space-y-2 xl:justify-start xl:mt-5 2xl:justify-center 2xl:mt-0 ">
                                     <h1 className="text-white text-[25px] font-semibold">{Item.Name}</h1>
                                     <h2 className="text-white font-semibold">{Item.language}</h2>
                                     <div className="py-1 bg-white flex justify-center items-center w-14 rounded-md">
@@ -128,7 +128,7 @@ export default function Projects() {
                                     </div>
                                 </div>
                             </div>
-                            <Image src={Item.image} alt="fess manager logo" className='rounded-md group-hover:scale-110 duration-500' />
+                            <Image src={Item.image} alt="fess manager logo" className='rounded-md group-hover:scale-110 duration-500 overflow-hidden' />
                         </div>
                     ))}
                 </div>
