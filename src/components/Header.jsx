@@ -83,7 +83,7 @@ export function Header(props) {
                     key={name}
                     href={link}
                   >
-                    <a className={`${router.pathname === link ? " xs:text-[#0126ca] xs:border-[#0126ca] border-b-2 px-2 " : " text-[#0126ca] md:text-[#060922]"} font-semibold md:hover:text-[#0126ca] md:hover:border-b-2 md:hover:border-[#0126ca] duration-200 text-[15px]`}>
+                    <a className=" text-[#0126ca] md:text-[#060922] font-semibold md:hover:text-[#0126ca] md:hover:border-b-2 md:hover:border-[#0126ca] duration-200 text-[15px]">
                       {name}
                     </a>
                   </Link>

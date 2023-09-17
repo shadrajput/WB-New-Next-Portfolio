@@ -11,6 +11,7 @@ import AlBuqar from '@/images/logos/Al-Buraq.png'
 import C7 from '@/images/logos/Alif.png'
 import C8 from '@/images/logos/sona.jpg'
 import C9 from '@/images/logos/aldeenar.png'
+import sultanmobile from '@/images/logos/sultanmobile.png'
 
 export default function Clients() {
     return (
@@ -45,6 +46,9 @@ export default function Clients() {
                 </div>
                 <div className='w-full h-full xs:p-0 sm:p-3 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center '>
                     <Image src={C7} alt="fess manager logo" className='' />
+                </div>
+                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-3 hover:shadow-lg rounded-md flex justify-center items-center '>
+                    <Image src={sultanmobile} alt="fess manager logo" className='' />
                 </div>
                 <div className='w-full h-full xs:p-0 sm:p-3 xl:p-7 hover:shadow-lg rounded-md flex justify-center items-center '>
                     <Image src={C8} alt="fess manager logo" className='rounded-md' />

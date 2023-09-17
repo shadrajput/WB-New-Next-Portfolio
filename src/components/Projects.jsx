@@ -12,6 +12,7 @@ import Alif from '@/images/portfolio/Screenshot (27).png'
 import sona from '@/images/portfolio/Screenshot (549).png'
 import virtual from '@/images/portfolio/Screenshot (550).png'
 import aldeenar from '@/images/portfolio/Screenshot (551).png'
+import sultanmobile from '@/images/portfolio/Screenshot (461).png'
 
 export default function Projects() {
     const ProjectData = [
@@ -81,6 +82,14 @@ export default function Projects() {
         },
         {
             id: 9,
+            Name: "Sultan Mobile",
+            Disc: "This is a desktop application which use to manage EMI and Phone in Mobile store and also manage fess and salary of student's and staff.",
+            Link: "",
+            image: sultanmobile,
+            language : "Electron JS"
+        },
+        {
+            id: 10,
             Name: "Sona Mattresses",
             Disc: "This is a High quality mattress manufactures and they are supplied all over the india and they provide multiple product of Mattress.",
             Link: "https://www.sonamattresses.com/",
@@ -88,7 +97,7 @@ export default function Projects() {
             language : "NextJs"
         },
         {
-            id: 10,
+            id: 11,
             Name: "VirtualEmployee",
             Disc: "This is a virtual employee compnay and they are help to connect eemployee who need employee.",
             Link: "https://virtualemployees.uk/",
@@ -96,7 +105,7 @@ export default function Projects() {
             language : "WordPress"
         },
         {
-            id: 11,
+            id: 12,
             Name: "Al-Deenar",
             Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
             Link: "https://aldeenarfashion.com/",
