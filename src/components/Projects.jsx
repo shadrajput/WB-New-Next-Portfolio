@@ -20,7 +20,7 @@ export default function Projects() {
             id: 1,
             Name: "TheCVL",
             Disc: "This is a simple and clean scorekeeper app to count your points and keep track of your volleyball score.",
-            Link: "https://www.thecvl.in/",
+            Link: "https://cvl.ljku.edu.in/",
             image: thecvl,
             language : "PHP"
         },
