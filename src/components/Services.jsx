@@ -1,7 +1,7 @@
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import { HiArrowSmRight } from "react-icons/hi"
 import { AiFillSetting } from "react-icons/ai"
-import { SiShopify } from "react-icons/si"
+import { AiFillFacebook } from "react-icons/ai"
 import { MdOutlineComputer } from "react-icons/md"
 import { FaWordpressSimple } from "react-icons/fa"
 import { FaPhotoVideo } from "react-icons/fa"
@@ -18,24 +18,24 @@ export default function Services() {
                         Leading IT Solution for you<br /> <span className="text-[#0125ca] ">business</span></h1>
                 </div>
                 <div className="grid xs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-3  gap-10 w-full">
-                    <div className=" p-6 bg-white shadow-lg z-10  63a8c] rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold">Website Development</h1>
-                        <div className="py-7 flex items-start relative">
-                            <p className="text-sm text-black pr-20">We build single page websites to complex web applications for the internet.</p>
-                            <MdOutlineComputer className="absolute text-5xl right-0 text-[#0125ca]" />
+                    <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
+                        <h1 className="text-slate-900 text-lg font-semibold group-hover:border-[#0125ca]">Social Media Marketing</h1>
+                        <div className="py-7 flex items-start relative group-hover:border-[#0125ca]">
+                            <p className="text-sm text-black pr-20">Social media marketing offers a multitude of benefits for businesses. It provides a cost-effective platform to boost brand awareness, engage with a global audience, and target specific demographics with tailored advertising. </p>
+                            <AiFillFacebook className="absolute text-5xl right-0 text-[#0125ca]" />
                         </div>
-                        <div className="flex items-center text-[#0125ca] font-semibold">
+                        <div className="flex items-center text-[#0125ca] font-semibold group-hover:border-[#0125ca]">
                             <h1>Learn More</h1>
                             <HiArrowSmRight className="text-2xl font-semibold" />
                         </div>
                     </div>
-                    <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold group-hover:border-[#0125ca]">Shopify Store</h1>
-                        <div className="py-7 flex items-start relative group-hover:border-[#0125ca]">
-                            <p className="text-sm text-black pr-20">Shopify provides a user-friendly interface and intuitive tools that make it easy to set up an online store without requiring extensive technical knowledge or coding skills.</p>
-                            <SiShopify className="absolute text-5xl right-0 text-[#0125ca]" />
+                    <div className=" p-6 bg-white shadow-lg z-10   rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
+                        <h1 className="text-slate-900 text-lg font-semibold">Website Development</h1>
+                        <div className="py-7 flex items-start relative">
+                            <p className="text-sm text-black pr-20">A website is a crucial asset for businesses, offering numerous benefits. It serves as a 24/7 online storefront, providing a global platform to showcase products, services, and information. </p>
+                            <MdOutlineComputer className="absolute text-5xl right-0 text-[#0125ca]" />
                         </div>
-                        <div className="flex items-center text-[#0125ca] font-semibold group-hover:border-[#0125ca]">
+                        <div className="flex items-center text-[#0125ca] font-semibold">
                             <h1>Learn More</h1>
                             <HiArrowSmRight className="text-2xl font-semibold" />
                         </div>
@@ -63,7 +63,7 @@ export default function Services() {
                         </div>
                     </div>
 
-                    <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
+<div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
                         <h1 className="text-slate-900 text-lg font-semibold">User Generated Content</h1>
                         <div className="py-7 flex items-start relative">
                             <p className="text-sm text-black pr-20">After being satisfied with a product or service, a user records a review in a video.</p>
@@ -74,7 +74,6 @@ export default function Services() {
                             <HiArrowSmRight className="text-2xl font-semibold" />
                         </div>
                     </div>
-
                     <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
                         <h1 className="text-slate-900 text-lg font-semibold">SEO Optimization</h1>
                         <div className="py-7 flex items-start relative">
