@@ -40,6 +40,18 @@ export default function Services() {
                             <HiArrowSmRight className="text-2xl font-semibold" />
                         </div>
                     </div>
+                    <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
+                        <h1 className="text-slate-900 text-lg font-semibold">User Generated Content</h1>
+                        <div className="py-7 flex items-start relative">
+                            <p className="text-sm text-black pr-20">In today's competitive market, it is challenging to persuade people to buy your products. They don't simply make purchases based on marketing videos alone; that's why we utilize User-Generated Content (UGC) videos.
+                            </p>
+                            <FaPhotoVideo className="absolute text-5xl right-0 text-[#0125ca]" />
+                        </div>
+                        <div className="flex items-center text-[#0125ca] font-semibold">
+                            <h1>Learn More</h1>
+                            <HiArrowSmRight className="text-2xl font-semibold" />
+                        </div>
+                    </div>
                     <div className="p-6 bg-white shadow-lg z-10 bounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
                         <h1 className="text-slate-900 text-lg font-semibold">Marketplace Automation software</h1>
                         <div className="py-7 flex items-start relative">
@@ -56,18 +68,6 @@ export default function Services() {
                         <div className="py-7 flex items-start relative">
                             <p className="text-sm text-black pr-20">WordPress is easy to use, making it accessible for both beginners and experienced users.</p>
                             <FaWordpressSimple className="absolute text-5xl right-0 text-[#0125ca]" />
-                        </div>
-                        <div className="flex items-center text-[#0125ca] font-semibold">
-                            <h1>Learn More</h1>
-                            <HiArrowSmRight className="text-2xl font-semibold" />
-                        </div>
-                    </div>
-
-<div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold">User Generated Content</h1>
-                        <div className="py-7 flex items-start relative">
-                            <p className="text-sm text-black pr-20">After being satisfied with a product or service, a user records a review in a video.</p>
-                            <FaPhotoVideo className="absolute text-5xl right-0 text-[#0125ca]" />
                         </div>
                         <div className="flex items-center text-[#0125ca] font-semibold">
                             <h1>Learn More</h1>

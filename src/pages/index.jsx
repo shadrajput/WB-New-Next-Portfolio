@@ -23,6 +23,8 @@ export default function Home() {
         <meta
           name="Wellbenix "
           content="Best E-commerce webiste development Company" />
+
+        <meta name="facebook-domain-verification" content="wdq3rkb624gnbazwzhrej9w9qldfc6" />
       </Head>
       <Header />
       <main>

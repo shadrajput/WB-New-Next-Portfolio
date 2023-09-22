@@ -28,7 +28,7 @@ export function Footer() {
                 </a>
               </div>
               <div className="hover:bg-gradient-to-r from-[#2439ff] to-[#9000ff] group bg-white px-2 rounded-full py-2 hover:scale-90 duration-500">
-                <a href="https://www.linkedin.com/in/well-benix/">
+                <a href="https://www.linkedin.com/in/wellbenix/">
                   <AiFillLinkedin className="text-2xl cursor-pointer group-hover:text-white text-[#171f42]" />
                 </a>
               </div>

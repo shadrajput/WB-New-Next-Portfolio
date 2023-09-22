@@ -27,6 +27,7 @@ export default function Document(props) {
           rel="icon"
           href="/favicon.png"
         />
+        
       </Head>
       <body className="flex h-full flex-col" id="root">
         <Main />
