@@ -33,8 +33,8 @@ export default function Home() {
         <AboutUs />
         <Services />
         {/* <TotalClientsProjects /> */}
-        <Technology />
         <Projects />
+        <Technology />
         <GetTouch />
         <Testimonials />
         <ContactUs />

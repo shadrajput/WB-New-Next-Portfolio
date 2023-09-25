@@ -3,8 +3,8 @@ import Logo from "../../public/images/logo.png"
 import Link from 'next/link'
 import { MdLocationOn } from "react-icons/md"
 import { FiPhoneCall } from "react-icons/fi"
-import { AiFillLinkedin } from "react-icons/ai"
 import { CgMail } from "react-icons/cg"
+import { AiFillLinkedin } from "react-icons/ai"
 import { AiOutlineInstagram } from "react-icons/ai"
 import { AiOutlineFacebook } from "react-icons/ai"
 
