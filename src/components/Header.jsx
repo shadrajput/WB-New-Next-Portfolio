@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 import Image from "next/image";
-import Logo from '../../public/images/BLUE.png'
+import Logo from '../../public/images/black_logo.png'
 import { useRouter } from 'next/router';
 import { HiMenu } from "react-icons/hi"
 import { BsTelephoneFill } from "react-icons/bs"
@@ -95,7 +95,7 @@ export function Header(props) {
             <div className='flex items-center  justify-between w-full md:w-52 xl:w-0 xs:px-3 xs:py-1'>
               <div>
                 <Link href="/">
-                  <div className='w-24 sm:w-32 xl:w-40 cursor-pointer '>
+                  <div className='w-24 sm:w-32 xl:w-52 cursor-pointer '>
                     <Image src={Logo} alt="fess manager logo" className='' />
                   </div>
                 </Link>

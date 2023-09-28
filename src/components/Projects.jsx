@@ -12,7 +12,7 @@ import Alif from '@/images/portfolio/Screenshot (27).png'
 import sona from '@/images/portfolio/Screenshot (549).png'
 import virtual from '@/images/portfolio/Screenshot (550).png'
 import aldeenar from '@/images/portfolio/Screenshot (551).png'
-import sultanmobile from '@/images/portfolio/Screenshot (461).png'
+import sultanmobile from '@/images/portfolio/sultanmobile.png'
 
 export default function Projects() {
     const ProjectData = [
