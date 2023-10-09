@@ -2,6 +2,7 @@ import Image from 'next/image'
 import wb from '../../public/images/aboutUs.jpg'
 import { AiOutlineSolution } from "react-icons/ai"
 import { FaUsers } from "react-icons/fa"
+import Link from 'next/link'
 
 export default function AboutUs() {
   return (
@@ -20,7 +21,7 @@ export default function AboutUs() {
               <div className='bg-[#ebeaff] xs:w-14 xs:h-14 sm:w-16 sm:h-10 flex justify-center items-center mt-2 text-[#0125ca] rounded-md'>
                 <FaUsers className='xs:text-xl text-lg ' />
               </div>
-            <div>
+              <div>
                 <h1 className="font-bold xs:text-xl xs:py-2 text-lg xs:text-center sm:text-start">Diverse Expertise</h1>
                 <p className='xs:text-center sm:text-start sm:text-sm'>Our team comprises experts with diverse skill sets and backgrounds, ensuring a holistic approach to solving your IT challenges.</p>
               </div>
@@ -36,9 +37,11 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="pt-3 w-full flex justify-center xs:items-center sm:items-start md:justify-start">
-            <button className="font-semibold bg-[#08203a] text-white rounded-md px-7 py-3">
-              Connect With Us
-            </button>
+            <Link href="/Connect">
+              <button className="font-semibold bg-[#08203a] text-white rounded-md px-7 py-3">
+                Connect With Us
+              </button>
+            </Link>
           </div>
         </div>
         <div className='w-full h-ful flex justify-center items-center relative xs:mt-10 '>

@@ -1,6 +1,6 @@
-import Image from "next/image";
 import React, { useState } from "react";
-import { toast } from 'react-toastify'
+import Link from 'next/link'
+
 
 export default function Subscribe() {
     return (
@@ -37,7 +37,10 @@ export default function Subscribe() {
                             </p>
                         </div>
                         <div className="py-10 text-center ">
-                            <button className="text-[#0125ca] mt-5 w-full py-5 rounded-md font-semibold  bg-gradient-to-r from-[#d5ff54]  to-[#addeff]">Get Started</button>
+                            <Link href="/Connect">
+                                <button className="text-[#0125ca] mt-5 w-full py-5 rounded-md font-semibold  bg-gradient-to-r from-[#d5ff54]  to-[#addeff]">Get Started</button>
+                            </Link>
+
                         </div>
                     </div>
                 </div>
