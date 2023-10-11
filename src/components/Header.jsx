@@ -58,7 +58,7 @@ export function Header(props) {
 
   return (
     <>
-      <header className={` lg:z-20 2xl:px-20 w-full fixed top-0 z-[999] py-1.5 md:py-0 xl:py-0 duration-300 ${scrollPosition > 0 ? 'bg-white shadow-lg' : ''}  xs:bg-none lg:bg-white `}>
+      <header className={` lg:z-20 2xl:px-5 w-full fixed top-0 z-[999] py-1.5 md:py-0 xl:py-0 duration-300 ${scrollPosition > 0 ? 'bg-white shadow-lg' : ''}  xs:bg-none lg:bg-white `}>
         {/* <div className={` ${scrollPosition > 0 ? "hidden" : "block"} w-full transition-all duration-500  pt-3  flex justify-between items-center `}>
           <div className='flex items-center space-x-8'>
             <div className='flex items-center'>
@@ -131,8 +131,11 @@ export function Header(props) {
                     <BsTelephoneFill className='text-white group-hover:text-[#171f42] text-xl' />
                   </div>
                   <div className='flex-col flex items-start '>
+                    <div className='flex  items-center space-x-2'>
+                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 9328027580</h1>
+                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 7359150166 </h1>
+                    </div>
                     <span className='text-sm'>Call Any Time</span>
-                    <h1 className='font-bold text-[17px] xl:text-xl xs:text-[#0126caa8] text-white'>+91  9328027580</h1>
                   </div>
                 </div>
               </div>

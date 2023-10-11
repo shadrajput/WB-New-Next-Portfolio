@@ -21,7 +21,10 @@ export default function Subscribe() {
                             Wellbenix Solutions has built various Ecommerce Website which are helping our clients to genrate 5000$+/Month on ROI. It is really heartening to see how our work has been useful to them and we strive to contribute even more to their success.
                         </p>
                         <div className="py-6">
+                            <div className="flex items-center space-x-3">
                             <h1 className="text-slate-900 text-xl font-semibold xs:text-center xl:text-start">+91 9328027580</h1>
+                            <h1 className="text-slate-900 text-xl font-semibold xs:text-center xl:text-start">+91 7359150166</h1>
+                            </div>
                             <h1 className="uppercase text-[#0125ca] xs:text-center font-semibold text-start rounded-md py-1 text-sm xl:text-start ">
                                 CALL US ANYTIME</h1>
                             <p className="text-[#141b35] xs:text-center sm:text-start">For all IT related work and taking your business on online</p>

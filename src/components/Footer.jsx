@@ -79,6 +79,7 @@ export function Footer() {
                     For Rental Call
                   </h1>
                   <p className="text-white font-semibold">+91 9328027580</p>
+                  <p className="text-white font-semibold">+91 7359150166</p>
                 </div>
               </li>
               <li className="flex items-center space-x-5">
