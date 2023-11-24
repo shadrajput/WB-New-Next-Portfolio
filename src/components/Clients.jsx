@@ -12,64 +12,78 @@ import AlBuqar from '@/images/logos/Al-Buraq.png'
 import C7 from '@/images/logos/Alif.png'
 import C8 from '@/images/logos/sona.jpg'
 import C9 from '@/images/logos/aldeenar.png'
-import sultanmobile from '@/images/logos/sultanmobile.png'
+import sultanmobile from '@/images/logos/sultanmobile.jpg'
+import beliewhoney from '@/images/logos/beliewhoney.png'
+import alzidaan from '@/images/logos/alzidaan.webp'
 
 export default function Clients() {
     return (
-        <div className="sm:py-5 xs:flex-col lg:flex-row flex items-start justify-center xs:px-10 xl:px-28 lg:space-x-20 md:py-0 md:pb-5 ">
-            <div className='grid  md:grid-cols-4 lg:grid-cols-3 grid-cols-3 justify-center items-center xs:gap-5 lg:w-[50%] xl:w-[55%] xs:order-2 lg:order-1 xs:pt-10 '>
-                <div className='w-full h-full xs:p-2 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center'>
-                    <Image src={cvl} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-2 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center'>
-                    <Image src={C1} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center'>
-                    <Image src={C2} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center'>
-                    <Image src={FeesManagerLogo} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full  sm:p-3p-5 hover:shadow-lg rounded-md flex justify-center items-center'>
-                    <Image src={washon} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-7 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={C4} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-7 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={Mehndi} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={AlBuqar} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-1 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={C3} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-6 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={C5} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={C7} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-3 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={sultanmobile} alt="fess manager logo" className='' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-7 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={C8} alt="fess manager logo" className='rounded-md' />
-                </div>
-                <div className='w-full h-full xs:p-0 sm:p-3 xl:p-5 hover:shadow-lg rounded-md flex justify-center items-center '>
-                    <Image src={C9} alt="fess manager logo" className='rounded-md' />
-                </div>
-            </div>
-            <div className='xs:w-full lg:w-[50%] xl:w-[45%] mt-10 xs:order-1 lg:order-2'>
+        <div className="sm:py-5 xs:flex-col items-start justify-center xs:px-10 xl:px-10 md:py-0 md:pb-5 ">
+            <div className='flex flex-col w-full justify-center items-center mt-10 xs:order-1 lg:order-2 '>
                 <div className='flex justify-center items-center lg:justify-start'>
                     <h1 className="uppercase bg-[#2730ed24] mb-5 text-center text-[#0125ca] flex justify-center items-center rounded-md py-1 px-5 text-sm font-semibold ">OUR CLIENTS</h1>
                 </div>
-                <h1 className="text-slate-900 text-3xl xl:text-4xl xs:text-center lg:text-start w-full xl:text-start font-bold pb-5">
+                <h1 className="text-slate-900 text-center text-3xl xl:text-4xl w-full font-bold pb-5">
                     Long Time Project, with Our<br /><span className='text-[#0125ca]'>Best Partner</span>
                 </h1>
-                <p className="text-[#666666] xs:text-sm xs:text-center lg:text-start">We’ve been lucky to collaborate with a long list of customers,<br /> located in and out of the country. Thanks to them we have<br /> grown as professionals.</p>
+                <p className="text-[#666666] xs:text-sm text-center">We’ve been lucky to collaborate with a long list of customers, located in and out of the country. Thanks to them we have<br /> grown as professionals.</p>
             </div>
+
+            <div className='overflow-hidden flex flex-col  group pt-10'>
+                <div className='grid xs:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 animate-loop-scroll gap-10 items-start py-3 group-hover:paused'>
+                    <div className='w-full h-full rounded-md flex justify-center items-center'>
+                        <Image src={cvl} alt="fess manager logo" className='w-20' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center'>
+                        <Image src={C1} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center'>
+                        <Image src={C2} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center'>
+                        <Image src={FeesManagerLogo} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center'>
+                        <Image src={washon} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={C4} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={Mehndi} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={AlBuqar} alt="fess manager logo" className='' />
+                    </div>
+                </div>
+                <div className='grid xs:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 animate-loop-scroll gap-10 items-start py-3 group-hover:paused'>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={C3} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={C5} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={C7} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={sultanmobile} alt="fess manager logo" className='' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={C8} alt="fess manager logo" className='rounded-md' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={C9} alt="fess manager logo" className='rounded-md' />
+                    </div>
+                    <div className='w-full h-full rounded-md flex justify-center items-center '>
+                        <Image src={alzidaan} alt="fess manager logo" className='rounded-md' />
+                    </div>
+                    <div className='w-full h-full xs:p-0 sm:p-3 xl:p- rounded-md flex justify-center items-center '>
+                        <Image src={beliewhoney} alt="fess manager logo" className='rounded-md' />
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }

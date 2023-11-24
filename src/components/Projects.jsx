@@ -13,6 +13,8 @@ import sona from '@/images/portfolio/Screenshot (549).png'
 import virtual from '@/images/portfolio/Screenshot (550).png'
 import aldeenar from '@/images/portfolio/Screenshot (551).png'
 import sultanmobile from '@/images/portfolio/sultanmobile.png'
+import alzidan  from '@/images/portfolio/alzidan.png'
+import beliewhoney from '@/images/portfolio/beliehoney.png'
 
 export default function Projects() {
     const ProjectData = [
@@ -111,6 +113,22 @@ export default function Projects() {
             Link: "https://aldeenarfashion.com/",
             image: aldeenar,
             language : "WordPress"
+        },
+        {
+            id: 12,
+            Name: "Al-Zidaan",
+            Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
+            Link: "https://alzidaan.in/",
+            image: alzidan ,
+            language : "Shopify"
+        },
+        {
+            id: 12,
+            Name: "Believehoney",
+            Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
+            Link: "https://www.believehoney.in/",
+            image: beliewhoney,
+            language : "Shopify"
         }
     ]
     return (

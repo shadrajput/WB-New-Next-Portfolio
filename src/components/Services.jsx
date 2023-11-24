@@ -19,7 +19,7 @@ export default function Services() {
                 </div>
                 <div className="grid xs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-3  gap-10 w-full">
                     <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold group-hover:border-[#0125ca]">Social Media Marketing</h1>
+                        <h1 className="text-slate-900 text-lg font-semibold group-hover:border-[#0125ca]">Social Ads</h1>
                         <div className="py-7 flex items-start relative group-hover:border-[#0125ca]">
                             <p className="text-sm text-black pr-20">Social media marketing offers a multitude of benefits for businesses. It provides a cost-effective platform to boost brand awareness, engage with a global audience, and target specific demographics with tailored advertising. </p>
                             <AiFillFacebook className="absolute text-5xl right-0 text-[#0125ca]" />
@@ -41,9 +41,9 @@ export default function Services() {
                         </div> */}
                     </div>
                     <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold">User Generated Content</h1>
+                        <h1 className="text-slate-900 text-lg font-semibold">Performance Marketing</h1>
                         <div className="py-7 flex items-start relative">
-                            <p className="text-sm text-black pr-20">In today's competitive market, it is challenging to persuade people to buy your products. They don't simply make purchases based on marketing videos alone; that's why we utilize User-Generated Content (UGC) videos.
+                            <p className="text-sm text-black pr-20">Achieve tangible growth for your clinic through our results-driven performance marketing campaigns, tailored to attract and convert the right audience for your medical services.
                             </p>
                             <FaPhotoVideo className="absolute text-5xl right-0 text-[#0125ca]" />
                         </div>
@@ -53,9 +53,9 @@ export default function Services() {
                         </div> */}
                     </div>
                     <div className="p-6 bg-white shadow-lg z-10 bounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold">Marketplace Automation software</h1>
+                        <h1 className="text-slate-900 text-lg font-semibold">CRM Automation</h1>
                         <div className="py-7 flex items-start relative">
-                            <p className="text-sm text-black pr-20">Automation software streamlines repetitive tasks, reducing the need for manual intervention and saving time and effort.</p>
+                            <p className="text-sm text-black pr-20">Streamline and optimize your clinic's operations with our cutting-edge CRM automation solutions, enhancing patient interactions and maximizing efficiency.</p>
                             <AiFillSetting className="absolute text-5xl right-0 text-[#0125ca]" />
                         </div>
                         {/* <div className="flex items-center text-[#0125ca] font-semibold">
@@ -64,9 +64,9 @@ export default function Services() {
                         </div> */}
                     </div>
                     <div className=" p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold">WordPress Website</h1>
+                        <h1 className="text-slate-900 text-lg font-semibold">Brand Building</h1>
                         <div className="py-7 flex items-start relative">
-                            <p className="text-sm text-black pr-20">WordPress is easy to use, making it accessible for both beginners and experienced users.</p>
+                            <p className="text-sm text-black pr-20">Cultivate a strong and trustworthy brand for your clinic through our strategic brand-building services, ensuring a distinctive identity in the competitive healthcare landscape.</p>
                             <FaWordpressSimple className="absolute text-5xl right-0 text-[#0125ca]" />
                         </div>
                         {/* <div className="flex items-center text-[#0125ca] font-semibold">

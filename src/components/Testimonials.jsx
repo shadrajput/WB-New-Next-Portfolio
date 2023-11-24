@@ -54,7 +54,7 @@ const testimonials = [
     content:
       "Thank you for transforming our website. Your IT expertise boosted our online presence. It's user-friendly, attractive, and efficiently represents our mattress brand. Exceptional work!",
     author: {
-      name: 'Parvej Alama ',
+      name: 'Parvej Alam ',
       role: 'CEO at Sona Mattresses',
       image: avatarImage,
     },
@@ -65,7 +65,7 @@ const testimonials = [
       "They have really outdone themselves with the 'Al-Deenar' ecommerce website. Our customers now have access to an outstanding variety of Indian clothings for women, thanks to their web building abilities. We are now the go-to place for formal clothes for Indian weddings and festivities."
     ,
     author: {
-      name: 'Mehfooz Bhai',
+      name: 'Mushihar Shaikh',
       role: 'Founder of Al-Deenar',
       image: avatarImage,
     },
