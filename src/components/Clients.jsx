@@ -53,15 +53,15 @@ export default function Clients() {
             <div className='flex flex-col justify-center items-center sm:px-5 xl:px-20'>
                 <Marquee className='py-5'>
                     <MarqueeGroup>
-                        {row1.map((el) => (
-                            <ImageGroup className='px-2'>
+                        {row1.map((el , index) => (
+                            <ImageGroup className='px-2' key={index}>
                                 <Image src={el} className='xs:p-1 p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup>
                     <MarqueeGroup>
-                        {row1.map((el) => (
-                            <ImageGroup className='px-2'>
+                        {row1.map((el , index) => (
+                            <ImageGroup className='px-2' key={index}>
                                 <Image src={el} className='xs:p-1 p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
@@ -69,15 +69,15 @@ export default function Clients() {
                 </Marquee>
                 <Marquee className='py-5'>
                     <MarqueeGroup2 className=''>
-                        {row2.map((el) => (
-                            <ImageGroup className='px-2'>
+                        {row2.map((el , index) => (
+                            <ImageGroup className='px-2' key={index}>
                                 <Image src={el} className='xs:p-1 p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup2>
                     <MarqueeGroup2>
-                        {row2.map((el) => (
-                            <ImageGroup className='px-2'>
+                        {row2.map((el , index) => (
+                            <ImageGroup className='px-2' key={index}>
                                 <Image src={el} className='xs:p-1 p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
