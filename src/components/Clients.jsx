@@ -1,41 +1,92 @@
-import C1 from '@/images/logos/lj-university.webp'
+import cvl from '@/images/logos/cvl.png'
+import ljuniversity from '@/images/logos/lj-university.webp'
+import antrapreneur from '@/images/logos/antrapreneur.webp'
 import FeesManagerLogo from '@/images/logos/FeesManagerLogo.png'
 import washon from '@/images/logos/washon.png'
-import C2 from '@/images/logos/antrapreneur.webp'
-import C3 from '@/images/logos/cbl.png'
-import C4 from '@/images/logos/nasir-sir.png'
-import Mehndi from "@/images/logos/mehndi.png"
-import C5 from '@/images/logos/platform.jpg'
+import nsc from '@/images/logos/nasir-sir.png'
+import alif from '@/images/logos/Alif.png'
 import AlBuqar from '@/images/logos/Al-Buraq.png'
-import C7 from '@/images/logos/Alif.png'
+import cbl from '@/images/logos/cbl.png'
+import Mehndi from "@/images/logos/mehndi.png"
+import platform from '@/images/logos/platform.jpg'
 import sultanmobile from '@/images/logos/sultanmobile.jpg'
-import C8 from '@/images/logos/sona.jpg'
-import C9 from '@/images/logos/aldeenar.png'
-import beliewhoney from '@/images/logos/beliewhoney.png'
+import sona from '@/images/logos/sona.jpg'
+import aldeenar from '@/images/logos/aldeenar.png'
 import alzidaan from '@/images/logos/alzidaan.webp'
+import beliewhoney from '@/images/logos/beliewhoney.png'
 import styled, { keyframes, css } from "styled-components";
 
 const row1 = [
-    "images/logos/cvl.png",
-    "images/logos/lj-university.webp",
-    "images/logos/antrapreneur.webp",
-    "images/logos/FeesManagerLogo.png",
-    "images/logos/washon.png",
-    "images/logos/nasir-sir.png",
-    "images/logos/Alif.png",
-    "images/logos/Al-Buraq.png",
-];
-
-
+    {
+        id: 1,
+        image: cvl
+    },
+    {
+        id: 2,
+        image: ljuniversity,
+    },
+    {
+        id: 3,
+        image: antrapreneur,
+    },
+    {
+        id: 4,
+        image: FeesManagerLogo,
+    },
+    {
+        id: 5,
+        image: washon,
+    },
+    {
+        id: 6,
+        image: nsc,
+    },
+    {
+        id: 7,
+        image: alif,
+    },
+    {
+        id: 8,
+        image: AlBuqar,
+    }
+]
 const row2 = [
-    "images/logos/cbl.png",
-    "images/logos/platform.jpg",
-    "images/logos/Alif.png",
-    "images/logos/sultanmobile.jpg",
-    "images/logos/sona.jpg",
-    "images/logos/aldeenar.png",
-    "images/logos/alzidaan.webp",
-    "images/logos/beliewhoney.png",
+    {
+        id: 1,
+        image: cbl
+    },
+    {
+        id: 2,
+        image: Mehndi
+    },
+    {
+        id: 3,
+        image: platform
+    },
+    {
+        id: 4,
+        image: alif
+    },
+    {
+        id: 5,
+        image: sultanmobile
+    },
+    {
+        id: 6,
+        image: sona
+    },
+    {
+        id: 7,
+        image: aldeenar
+    },
+    {
+        id: 8,
+        image: alzidaan
+    },
+    {
+        id: 9,
+        image: beliewhoney
+    }
 ];
 
 export default function Clients() {
@@ -53,32 +104,32 @@ export default function Clients() {
             <div className='flex flex-col justify-center items-center sm:px-5 xl:px-20'>
                 <Marquee className='py-5'>
                     <MarqueeGroup>
-                        {row1.map((el , index) => (
-                            <ImageGroup className='px-2' key={index}>
-                                <Image src={el} className='xs:p-1 p-2 xl:p-[10px]' />
+                        {row1.map((item, index) => (
+                            <ImageGroup className='px-2 flex' key={index} >
+                                <Image src={item.image.src} className='xs:p-1 p-2 xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup>
                     <MarqueeGroup>
-                        {row1.map((el , index) => (
-                            <ImageGroup className='px-2' key={index}>
-                                <Image src={el} className='xs:p-1 p-2 xl:p-[10px]' />
+                        {row1.map((item, index) => (
+                            <ImageGroup className='px-2 flex' key={index}>
+                                <Image src={item.image.src} className='xs:p-1 p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup>
                 </Marquee>
                 <Marquee className='py-5'>
                     <MarqueeGroup2 className=''>
-                        {row2.map((el , index) => (
-                            <ImageGroup className='px-2' key={index}>
-                                <Image src={el} className='xs:p-1 p-2 xl:p-[10px]' />
+                        {row2.map((item, index) => (
+                            <ImageGroup className='px-2 flex' key={index}>
+                                <Image src={item.image.src} className='xs:p-1 p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup2>
                     <MarqueeGroup2>
-                        {row2.map((el , index) => (
-                            <ImageGroup className='px-2' key={index}>
-                                <Image src={el} className='xs:p-1 p-2 xl:p-[10px]' />
+                        {row2.map((item, index) => (
+                            <ImageGroup className='px-2 flex' key={index}>
+                                <Image src={item.image.src} className='xs:p-1 p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup2>

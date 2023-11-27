@@ -1,4 +1,3 @@
-import { AiFillEye } from "react-icons/ai"
 import { AiOutlineLink } from "react-icons/ai"
 import Image from "next/image";
 import thecvl from '@/images/portfolio/thecvl.png'
@@ -13,7 +12,7 @@ import sona from '@/images/portfolio/Screenshot (549).png'
 import virtual from '@/images/portfolio/Screenshot (550).png'
 import aldeenar from '@/images/portfolio/Screenshot (551).png'
 import sultanmobile from '@/images/portfolio/sultanmobile.png'
-import alzidan  from '@/images/portfolio/alzidan.png'
+import alzidan from '@/images/portfolio/alzidan.png'
 import beliewhoney from '@/images/portfolio/beliehoney.png'
 
 export default function Projects() {
@@ -24,7 +23,7 @@ export default function Projects() {
             Disc: "This is a simple and clean scorekeeper app to count your points and keep track of your volleyball score.",
             Link: "https://cvl.ljku.edu.in/",
             image: thecvl,
-            language : "PHP"
+            language: "PHP"
         },
         {
             id: 2,
@@ -32,7 +31,7 @@ export default function Projects() {
             Disc: "Washon is a laundry service that lets you book a pick up in just 1 minute.",
             Link: "https://www.washon.ae/",
             image: washOn,
-            language : "React Js"
+            language: "React Js"
         },
         {
             id: 3,
@@ -40,7 +39,7 @@ export default function Projects() {
             Disc: "This is a desktop application which use to manage student's and staff data in schools and tuition classes and also manage fess and salary of student's and staff.",
             Link: "https://www.feesmanager.in/",
             image: nasir,
-            language : "Electron JS"
+            language: "Electron JS"
         },
         {
             id: 4,
@@ -48,7 +47,7 @@ export default function Projects() {
             Disc: "expertly crafted by our team, serves as a powerful lead magnet. It captivates visitors with its engaging design and compelling content, enticing them to take action.",
             Link: "https://al-shifamehndi.netlify.app/",
             image: Mehndi,
-            language : "React Js"
+            language: "React Js"
         },
         {
             id: 5,
@@ -56,7 +55,7 @@ export default function Projects() {
             Disc: "This is a simple and clean scorekeeper app to count your points and keep track of your volleyball score.",
             Link: "https://alburaqperfume.com/",
             image: Alburaq,
-            language : "WordPress"
+            language: "WordPress"
         },
         {
             id: 6,
@@ -64,7 +63,7 @@ export default function Projects() {
             Disc: "This is a simple and clean scorekeeper app to count your points and keep track of your backetball score.",
             Link: "https://thecbl.in/",
             image: theCBL,
-            language : "React Js"
+            language: "React Js"
         },
         {
             id: 7,
@@ -72,7 +71,7 @@ export default function Projects() {
             Disc: "We have creatd custom admin dashboard and theme for out client so can easily manage content on their site",
             Link: "https://platform-pillow.com/",
             image: Platform,
-            language : "WordPress"
+            language: "WordPress"
         },
         {
             id: 8,
@@ -80,7 +79,7 @@ export default function Projects() {
             Disc: "This is a desktop application which use to manage student's and staff data in schools and tuition classes and also manage fess and salary of student's and staff.",
             Link: "https://www.feesmanager.in/",
             image: Alif,
-            language : "Electron JS"
+            language: "Electron JS"
         },
         {
             id: 9,
@@ -88,7 +87,7 @@ export default function Projects() {
             Disc: "This is a desktop application which use to manage EMI and Phone in Mobile store and also manage fess and salary of student's and staff.",
             Link: "",
             image: sultanmobile,
-            language : "Electron JS"
+            language: "Electron JS"
         },
         {
             id: 10,
@@ -96,7 +95,7 @@ export default function Projects() {
             Disc: "This is a High quality mattress manufactures and they are supplied all over the india and they provide multiple product of Mattress.",
             Link: "https://www.sonamattresses.com/",
             image: sona,
-            language : "NextJs"
+            language: "NextJs"
         },
         {
             id: 11,
@@ -104,7 +103,7 @@ export default function Projects() {
             Disc: "This is a virtual employee compnay and they are help to connect eemployee who need employee.",
             Link: "https://virtualemployees.uk/",
             image: virtual,
-            language : "WordPress"
+            language: "WordPress"
         },
         {
             id: 12,
@@ -112,15 +111,15 @@ export default function Projects() {
             Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
             Link: "https://aldeenarfashion.com/",
             image: aldeenar,
-            language : "WordPress"
+            language: "WordPress"
         },
         {
             id: 12,
             Name: "Al-Zidaan",
             Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
             Link: "https://alzidaan.in/",
-            image: alzidan ,
-            language : "Shopify"
+            image: alzidan,
+            language: "Shopify"
         },
         {
             id: 12,
@@ -128,9 +127,11 @@ export default function Projects() {
             Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
             Link: "https://www.believehoney.in/",
             image: beliewhoney,
-            language : "Shopify"
+            language: "Shopify"
         }
     ]
+
+    console.log(ProjectData)
     return (
         <>
             <div id="Portfolio" className="xs:py-14 xl:px-28 xs:px-10 xl:py-20">
