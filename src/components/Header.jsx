@@ -59,37 +59,6 @@ export function Header(props) {
   return (
     <>
       <header className={` lg:z-20 2xl:px-5 w-full fixed top-0 z-[999] py-1.5 md:py-0 xl:py-0 duration-300 ${scrollPosition > 0 ? 'bg-white shadow-lg' : ''}  xs:bg-none lg:bg-white `}>
-        {/* <div className={` ${scrollPosition > 0 ? "hidden" : "block"} w-full transition-all duration-500  pt-3  flex justify-between items-center `}>
-          <div className='flex items-center space-x-8'>
-            <div className='flex items-center'>
-              <IoMdCall className='text-[20px] mr-2 text-[#0126ca]' />
-              <h1 className='text-[13px] font-semibold text-[#647589]'>+91 9328027580</h1>
-            </div>
-            <div className='flex items-center'>
-              <IoMdMail className='text-[20px] mr-2 text-[#0126ca]' />
-              <h1 className='text-[13px] font-semibold text-[#647589]'>wellbenix@gmail.com</h1>
-            </div>
-          </div>
-          <div className="flex xs:justify-center xs:items-center lg:items-center lg:justify-start space-x-3 ">
-            <div className="hover:bg-gradient-to-r from-[#2439ff] to-[#9000ff] group px-2 rounded-full py-2 hover:scale-90 duration-500">
-              <a href="https://www.instagram.com/wellbenix/">
-                <AiOutlineInstagram className="text-2xl cursor-pointer group-hover:text-white text-[#0126ca]" />
-              </a>
-            </div>
-            <div className="hover:bg-gradient-to-r from-[#2439ff] to-[#9000ff] group px-2 rounded-full py-2 hover:scale-90 duration-500">
-              <a href="https://www.linkedin.com/in/wellbenix/">
-                <AiFillLinkedin className="text-2xl cursor-pointer group-hover:text-white text-[#0126ca]" />
-              </a>
-            </div>
-
-            <div className="hover:bg-gradient-to-r from-[#2439ff] to-[#9000ff] group px-2 rounded-full py-2 hover:scale-90 duration-500">
-              <a href="https://www.facebook.com/profile.php?id=100089008334978">
-                <AiOutlineFacebook className="text-2xl cursor-pointer group-hover:text-white text-[#0126ca]" />
-              </a>
-
-            </div>
-          </div>
-        </div> */}
         <nav className="relative z-50 text-sm w-full">
           <div className="flex flex-col md:flex-row items-center w-full xl:justify-between">
             <div className='flex items-center  justify-between w-full md:w-52 xl:w-0 xs:px-3 xs:py-1'>

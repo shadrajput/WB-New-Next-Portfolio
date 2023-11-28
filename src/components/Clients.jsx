@@ -105,15 +105,16 @@ export default function Clients() {
                 <Marquee className='py-5'>
                     <MarqueeGroup className=''>
                         {row1.map((item, index) => (
-                            <ImageGroup className=' xs:px-[3px] sm:px-2 grid xs:w-full lg:w-36 ' key={index} >
-                                <Image src={item.image.src} className=' xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                            <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36 ' key={index} >
+                                <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup>
                     <MarqueeGroup className=''>
                         {row1.map((item, index) => (
-                            <ImageGroup className=' xs:px-[3px] sm:px-2 grid xs:w-full lg:w-36 ' key={index}>
-                                <Image src={item.image.src} className='xs:p-1 sm:p-2 xl:p-[10px]' />
+                            <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36 ' key={index}>
+                                <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+
                             </ImageGroup>
                         ))}
                     </MarqueeGroup>
@@ -121,15 +122,17 @@ export default function Clients() {
                 <Marquee className='py-5'>
                     <MarqueeGroup2 className=''>
                         {row2.map((item, index) => (
-                            <ImageGroup className=' xs:px-[3px] sm:px-2 grid xs:w-full lg:w-36'  key={index}>
-                                <Image src={item.image.src} className='xs:p-1 sm:p-2 xl:p-[10px]' />
+                            <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36' key={index}>
+                                <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+
                             </ImageGroup>
                         ))}
                     </MarqueeGroup2>
                     <MarqueeGroup2 className=''>
                         {row2.map((item, index) => (
-                            <ImageGroup className=' xs:px-[3px] sm:px-2 grid xs:w-full lg:w-36'  key={index}>
-                                <Image src={item.image.src} className='xs:p-1 sm:p-2 xl:p-[10px]' />
+                            <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36' key={index}>
+                                <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+
                             </ImageGroup>
                         ))}
                     </MarqueeGroup2>
