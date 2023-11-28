@@ -103,17 +103,17 @@ export default function Clients() {
             </div>
             <div className='flex flex-col justify-center items-center sm:px-5 xl:px-20'>
                 <Marquee className='py-5'>
-                    <MarqueeGroup>
+                    <MarqueeGroup className=''>
                         {row1.map((item, index) => (
-                            <ImageGroup className='px-2 flex' key={index} >
-                                <Image src={item.image.src} className='xs:p-1 p-2 xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                            <ImageGroup className=' xs:px-[3px] sm:px-2 grid xs:w-full lg:w-36 ' key={index} >
+                                <Image src={item.image.src} className=' xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup>
-                    <MarqueeGroup>
+                    <MarqueeGroup className=''>
                         {row1.map((item, index) => (
-                            <ImageGroup className='px-2 flex' key={index}>
-                                <Image src={item.image.src} className='xs:p-1 p-2 xl:p-[10px]' />
+                            <ImageGroup className=' xs:px-[3px] sm:px-2 grid xs:w-full lg:w-36 ' key={index}>
+                                <Image src={item.image.src} className='xs:p-1 sm:p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup>
@@ -121,15 +121,15 @@ export default function Clients() {
                 <Marquee className='py-5'>
                     <MarqueeGroup2 className=''>
                         {row2.map((item, index) => (
-                            <ImageGroup className='px-2 flex' key={index}>
-                                <Image src={item.image.src} className='xs:p-1 p-2 xl:p-[10px]' />
+                            <ImageGroup className=' xs:px-[3px] sm:px-2 grid xs:w-full lg:w-36'  key={index}>
+                                <Image src={item.image.src} className='xs:p-1 sm:p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup2>
-                    <MarqueeGroup2>
+                    <MarqueeGroup2 className=''>
                         {row2.map((item, index) => (
-                            <ImageGroup className='px-2 flex' key={index}>
-                                <Image src={item.image.src} className='xs:p-1 p-2 xl:p-[10px]' />
+                            <ImageGroup className=' xs:px-[3px] sm:px-2 grid xs:w-full lg:w-36'  key={index}>
+                                <Image src={item.image.src} className='xs:p-1 sm:p-2 xl:p-[10px]' />
                             </ImageGroup>
                         ))}
                     </MarqueeGroup2>
@@ -184,9 +184,8 @@ const MarqueeGroup2 = styled.div`
             `;
 
 const ImageGroup = styled.div`
-            display: grid;
             place-items: center;
-            width: clamp(10rem, 1rem + 40vmin, 30rem);
+            ${'' /* width: clamp(10rem, 1rem + 40vmin, 30rem); */}
             ${'' /* padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10); */}
             `;
 
@@ -194,7 +193,6 @@ const Image = styled.img`
             object-fit: contain;
             width: 100%;
             height: 100%;
-            /* border: 1px solid black; */
             border-radius: 0.5rem;
             aspect-ratio: 16/9;
             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
