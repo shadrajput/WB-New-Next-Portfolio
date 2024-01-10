@@ -164,13 +164,19 @@ export default function Testimonials() {
 
           </ul>
         </div>
-        <div className="flex justify-center w-full items-center pt-5">
-          <button
-            onClick={() => loadMore()}
-            className=" xs:px-5 xs:text-sm lg:px-10 xs:py-1 lg:py-3 z-10 bg-gradient-to-r from-[#2439ff] to-[#9000ff] text-white font-semibold duration-500 rounded-md">
-            Load More
-          </button>
-        </div>
+        {
+          slice.length < testimonials.length
+          ?
+            <div className="flex justify-center w-full items-center pt-5">
+              <button
+                onClick={() => loadMore()}
+                className=" xs:px-5 xs:text-sm lg:px-10 xs:py-1 lg:py-3 z-10 bg-gradient-to-r from-[#2439ff] to-[#9000ff] text-white font-semibold duration-500 rounded-md">
+                Load More
+              </button>
+            </div>
+          : 
+            null
+        }
       </section>
     </>
   )

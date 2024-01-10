@@ -20,7 +20,7 @@ export default function Technology() {
                     <div className='flex justify-center items-center'>
                         <h1 className="uppercase bg-[#2730ed24] text-[#0125ca] font-semibold text-center rounded-md py-1 px-3 text-sm ">TECHNOLOGIES</h1>
                     </div>
-                    <p className="text-2xl text-center pt-10 font-semibold "> A programming language is a system of notation for writing computer programs.
+                    <p className="text-2xl text-center pt-10 font-semibold "> Technologies we use to build applications
                     </p>
                 </div>
             </div>

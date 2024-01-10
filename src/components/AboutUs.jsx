@@ -13,9 +13,9 @@ export default function AboutUs() {
             <h1 className="uppercase bg-[#2730ed24] mb-5 text-center text-[#0125ca] flex justify-center items-center rounded-md py-1 px-5 text-sm font-semibold ">WHO WE ARE</h1>
           </div>
           <h1 className="text-slate-900 xs:text-3xl xs:text-center sm:text-center md:text-start xl:text-4xl text-left font-bold py-5">
-            We Team of <span className='text-[#0125ca]'> Experience</span><br /> IT Specialities
+            We are the <span className='text-[#0125ca]'> Experience</span><br /> IT Specialities
           </h1>
-          <p className="xs:text-center sm:text-center md:text-start">Wellbenix is a Ecommerce Solutions Company. Focused on creating <br />technology solutions for real-lifeEcommerce problems.</p>
+          <p className="xs:text-center sm:text-center md:text-start">Wellbenix is an IT Solutions & Marketing Company. Focused on creating <br />websites and helps to grow businesses using our marketing strategies.</p>
           <div className=' xs:py-5 xl:p-4'>
             <div className='flex xs:flex-col sm:flex-row xs:justify-center xs:items-center sm:items-start xl:justify-start xl:items-start space-x-5 p-3'>
               <div className='bg-[#ebeaff] xs:w-14 xs:h-14 sm:w-16 sm:h-10 flex justify-center items-center mt-2 text-[#0125ca] rounded-md'>

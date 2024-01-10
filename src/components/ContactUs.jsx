@@ -117,7 +117,7 @@ export function ContactUs() {
                     }
                 </div>
                 <div className="lg:w-[50%] xs:w-full xs:pt-14 sm:pt-0 ">
-                    <h1 className="font-bold xs:text-3xl xs:text-center xl:text-4xl">Make An Free IT Consultant</h1>
+                    <h1 className="font-bold xs:text-3xl xs:text-center xl:text-4xl">Contact for Free Consultation</h1>
                     <div className="w-full mt-14">
                         <form action="" className="w-full" ref={form} onSubmit={Sendmail} >
                             <div className="flex xs:flex-col sm:flex-row sm:space-y-0 xs:space-y-10 items-center w-full sm:space-x-10">
