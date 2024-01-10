@@ -18,17 +18,6 @@ export default function Services() {
                         Leading IT Solution for you<br /> <span className="text-[#0125ca] ">business</span></h1>
                 </div>
                 <div className="grid xs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-3  gap-10 w-full">
-                    <div className=" p-6 bg-white shadow-lg z-10   rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
-                        <h1 className="text-slate-900 text-lg font-semibold">Website Development</h1>
-                        <div className="py-7 flex items-start relative">
-                            <p className="text-sm text-black pr-20">A website is a crucial asset for businesses, offering numerous benefits. It serves as a 24/7 online storefront, providing a global platform to showcase products, services, and information. </p>
-                            <MdOutlineComputer className="absolute text-5xl right-0 text-[#0125ca]" />
-                        </div>
-                        {/* <div className="flex items-center text-[#0125ca] font-semibold">
-                            <h1>Learn More</h1>
-                            <HiArrowSmRight className="text-2xl font-semibold" />
-                        </div> */}
-                    </div>
                     <div className="p-6 bg-white shadow-lg z-10  rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
                         <h1 className="text-slate-900 text-lg font-semibold group-hover:border-[#0125ca]">Social Ads</h1>
                         <div className="py-7 flex items-start relative group-hover:border-[#0125ca]">
@@ -36,6 +25,17 @@ export default function Services() {
                             <AiFillFacebook className="absolute text-5xl right-0 text-[#0125ca]" />
                         </div>
                         {/* <div className="flex items-center text-[#0125ca] font-semibold group-hover:border-[#0125ca]">
+                            <h1>Learn More</h1>
+                            <HiArrowSmRight className="text-2xl font-semibold" />
+                        </div> */}
+                    </div>
+                    <div className=" p-6 bg-white shadow-lg z-10   rounded-md hover:border-[#0125ca] hover:shadow-sm hover:shadow-[#0125ca] ">
+                        <h1 className="text-slate-900 text-lg font-semibold">Website Development</h1>
+                        <div className="py-7 flex items-start relative">
+                            <p className="text-sm text-black pr-20">A website is a crucial asset for businesses, offering numerous benefits. It serves as a 24/7 online storefront, providing a global platform to showcase products, services, and information. </p>
+                            <MdOutlineComputer className="absolute text-5xl right-0 text-[#0125ca]" />
+                        </div>
+                        {/* <div className="flex items-center text-[#0125ca] font-semibold">
                             <h1>Learn More</h1>
                             <HiArrowSmRight className="text-2xl font-semibold" />
                         </div> */}
