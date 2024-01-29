@@ -15,36 +15,33 @@ export function Hero() {
 
   return (
     <>
-      <div className='xs:flex items-center lg:hidden xs:h-96 p-10 pt-20 xl:h-screen w-full '>
+      <div className='xs:flex-col items-center lg:hidden xs:h-full p-10 xs:my-10 xl:h-screen w-full '>
         <div>
-          <div className="xs:space-y-0 space-y-10">
-            <h1 className="text-[#0125ca] font-bold md:text-lg">
-              Best<span className="text-[#372fff]"> Web And Marketing </span><br />
-            </h1>
-            <h1 className="text-[#0125ca] xs:text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
-              Company
-            </h1>
+          <div className="xs:space-y-0 sm:space-y-0 ">
+            <h1 className=" font-bold pb-3">We Design Web Application For </h1>
+            <h1 className="font-bold text-6xl">Gujarat</h1>
+            <h1 className="font-bold text-6xl"> <span className="text-[#2439ff]">Top</span> University</h1>
           </div>
-          <p className="text-gray-500 sm:py-3 text-sm xl:text-base xs:text-black xs:hidden sm:block sm:pr-5 ">Engaging Website Site Development to
+          <p className="text-gray-500 sm:py-3 text-sm xl:text-base xs:text-black xs:hidden sm:block sm:pr-5  ">Engaging Website Site Development to
             Watch Your Business Soar to New Heights.
           </p>
-          <div className="flex items-center space-x-5">
-            <Link href="https://www.google.com/search?q=wellbenix&oq=wellbenix&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYOzIGCAQQIxgnMgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEINzEyOGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0xaafa210090b32df5:0xef42f05da31b0a1,1">
-              <div className="xs:w-28 lg:w-52 flex justify-center items-center shadow-md rounded-md cursor-pointer">
-                <Image src={googlereview} alt="" className='bg-cover' />
-              </div>
-            </Link>
-            <Link href="https://www.facebook.com/wellbenix/">
-              <div className="xs:w-28 lg:w-52 flex justify-center items-center shadow-md rounded-md cursor-pointer">
-                <Image src={facebookreview} Link="https://www.facebook.com/wellbenix/" alt="" className='bg-cover' />
-              </div>
-            </Link>
-          </div>
         </div>
-        <div className=" lg:mt-20 xl:mt-10">
-          <div className="md:w-96">
+        <div className="xs:mt-7 lg:mt-20 xl:mt-10 flex justify-center items-center">
+          <div className="w-full sm:w-96 flex items-center justify-center">
             <Image src={Wellbenix} alt="" className='bg-cover' />
           </div>
+        </div>
+        <div className="flex items-center sm: w-full justify-center space-x-2 xs:mt-5">
+          <Link href="https://www.google.com/search?q=wellbenix&oq=wellbenix&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYOzIGCAQQIxgnMgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEINzEyOGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0xaafa210090b32df5:0xef42f05da31b0a1,1">
+            <div className="xs:w-15 sm:w-32 lg:w-52 flex justify-center items-center shadow-md rounded-md cursor-pointer">
+              <Image src={googlereview} alt="" className='bg-cover' />
+            </div>
+          </Link>
+          <Link href="https://www.facebook.com/wellbenix/">
+            <div className="xs:w-15 sm:w-32 lg:w-52 flex justify-center items-center shadow-md rounded-md cursor-pointer">
+              <Image src={facebookreview} Link="https://www.facebook.com/wellbenix/" alt="" className='bg-cover' />
+            </div>
+          </Link>
         </div>
       </div>
 
