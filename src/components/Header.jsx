@@ -95,8 +95,7 @@ export function Header(props) {
                   </div>
                   <div className='flex-col flex items-center justify-center '>
                     <div className='flex flex-col  items-center'>
-                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 93280 27580</h1>
-                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 73591 50166 </h1>
+                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 7041106701</h1>
                     </div>
                   </div>
                 </div>

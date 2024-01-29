@@ -78,8 +78,7 @@ export function Footer() {
                   <h1 className="text-[#666] text-sm">
                     For Rental Call
                   </h1>
-                  <p className="text-white font-semibold">+91 9328027580</p>
-                  <p className="text-white font-semibold">+91 7359150166</p>
+                  <p className="text-white font-semibold">+91 7041106701</p>
                 </div>
               </li>
               <li className="flex items-center space-x-5">
@@ -101,7 +100,7 @@ export function Footer() {
                   <h1 className="text-[#666] text-sm">
                     Address
                   </h1>
-                  <p className="text-white font-semibold">Ajit Mill Char Rasta.</p>
+                  <p className="text-white font-semibold">Safal - 8 , Ajit Mill Char Rasta.</p>
                 </div>
               </li>
             </nav>

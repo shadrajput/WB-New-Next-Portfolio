@@ -22,8 +22,7 @@ export default function Subscribe() {
                         </p>
                         <div className="py-6">
                             <div className="flex items-center space-x-3">
-                            <h1 className="text-slate-900 text-xl font-semibold xs:text-center xl:text-start">+91 93280 27580</h1>
-                            <h1 className="text-slate-900 text-xl font-semibold xs:text-center xl:text-start">+91 73591 50166</h1>
+                            <h1 className="text-slate-900 text-xl font-semibold xs:text-center xl:text-start">+91 7041106701</h1>
                             </div>
                             <h1 className="uppercase text-[#0125ca] xs:text-center font-semibold text-start rounded-md py-1 text-sm xl:text-start ">
                                 CALL US ANYTIME</h1>
