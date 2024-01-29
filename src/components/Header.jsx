@@ -89,16 +89,15 @@ export function Header(props) {
                     </Link>
                   ))
                 }
-                <div className='flex items-start space-x-3 md:hidden xl:flex'>
+                <div className='flex items-center space-x-3 md:hidden xl:flex'>
                   <div className='bg-[#0125ca] w-11 h-11 flex justify-center items-center rounded-full'>
                     <BsTelephoneFill className='text-white group-hover:text-[#171f42] text-xl' />
                   </div>
-                  <div className='flex-col flex items-start '>
-                    <div className='flex  items-center space-x-2'>
-                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 9328027580</h1>
-                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 7359150166 </h1>
+                  <div className='flex-col flex items-center justify-center '>
+                    <div className='flex flex-col  items-center'>
+                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 93280 27580</h1>
+                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 73591 50166 </h1>
                     </div>
-                    <span className='text-sm'>Call Any Time</span>
                   </div>
                 </div>
               </div>
