@@ -99,7 +99,7 @@ export default function Clients() {
                 <h1 className="text-slate-900 text-center text-3xl xl:text-4xl w-full font-bold pb-5">
                     Long Time Project, with Our<br /><span className='text-[#0125ca]'>Best Partner</span>
                 </h1>
-                <p className="text-[#666666] xs:text-sm text-center">We’ve been lucky to collaborate with a long list of customers, located in and out of the country. Thanks to them we have<br /> grown as professionals.</p>
+                <p className="text-[#666666] xs:text-sm text-center xs:px-10">We’ve been lucky to collaborate with a long list of customers, located in and out of the country. Thanks to them we havegrown as professionals.</p>
             </div>
             <div className='flex flex-col justify-center items-center sm:px-5 xl:px-20'>
                 <Marquee className='py-5'>

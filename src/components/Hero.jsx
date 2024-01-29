@@ -1,6 +1,9 @@
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image";
 import Background from '../../public/images/hero-img.jpg'
+import Wellbenix from '../../public/images/Wellbenix.jpg'
+import googlereview from '../../public/images/googlereview.jpg'
+import facebookreview from '../../public/images/facebookreview.jpg'
 import shape0 from '../../public/images/shape-0.png'
 import shape01 from '../../public/images/shape-01.png'
 import shape02 from '../../public/images/shape-02.png'
@@ -12,33 +15,35 @@ export function Hero() {
 
   return (
     <>
-      <div className='xs:block lg:hidden xl:h-screen w-full '>
-        <div className="xs:h-1/2 xl:h-screen relative overflow-hidden">
-          <div className='ml-auto right-0 bottom-0 xs:top-0 h-[60%] w-[60%] lg:h-full lg:w-full bg-cover'>
-            <Image src={Background} alt="" className='bg-cover' />
-          </div>
-          <div className="w-full bg-gradient-to-r from-[#060922] top-0 to-transparent h-full xs:h-[425px] md:h-[510px] lg:h-[680px] xl:h-screen absolute">
-          </div>
-        </div>
-        <div className="flex flex-col items-start absolute xs:top-[10%] xs:left-10 sm:top-20 sm:left-20 md:top-28 lg:top-[30%] xl:top-[25%] xl:left-32 xs:space-y-3 xl:space-y-8">
+      <div className='xs:flex items-center lg:hidden xs:h-96 p-10 pt-20 xl:h-screen w-full '>
+        <div>
           <div className="xs:space-y-0 space-y-10">
-            <h1 className="text-white xs:text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
-              Best IT <span className="text-[#372fff] ">Solution</span><br />
+            <h1 className="text-[#0125ca] font-bold md:text-lg">
+              Best<span className="text-[#372fff]"> Web And Marketing </span><br />
             </h1>
-            <h1 className="text-white xs:text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
+            <h1 className="text-[#0125ca] xs:text-2xl sm:text-4xl lg:text-6xl xl:text-[85px] font-bold ">
               Company
             </h1>
           </div>
-          <p className="text-gray-200 sm:py-3 text-sm xl:text-base xs:text-black sm:text-white xs:hidden sm:block ">Engaging Website Site Development to
-            Watch Your <br /> Business Soar to New Heights.
+          <p className="text-gray-500 sm:py-3 text-sm xl:text-base xs:text-black xs:hidden sm:block sm:pr-5 ">Engaging Website Site Development to
+            Watch Your Business Soar to New Heights.
           </p>
-          <div className="">
-            <button className=" xs:px-5 sm:hidden xs:text-sm lg:px-10 xs:py-1 lg:py-4 z-10 bg-white text-[#060922] hover:bg-white hover:text-[#0125ca] font-semibold duration-500 rounded-md">
-              Connect Now!
-            </button>
-            <button className=" xs:px-5 xs:hidden sm:block xs:text-sm xl:text-base lg:px-10  xs:py-2 lg:py-4 z-10 bg-white text-[#060922] hover:bg-white hover:text-[#0125ca] font-semibold duration-500 rounded-md">
-              Claim Free Consultation Now!
-            </button>
+          <div className="flex items-center space-x-5">
+            <Link href="https://www.google.com/search?q=wellbenix&oq=wellbenix&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYOzIGCAQQIxgnMgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEINzEyOGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0xaafa210090b32df5:0xef42f05da31b0a1,1">
+              <div className="xs:w-28 lg:w-52 flex justify-center items-center shadow-md rounded-md cursor-pointer">
+                <Image src={googlereview} alt="" className='bg-cover' />
+              </div>
+            </Link>
+            <Link href="https://www.facebook.com/wellbenix/">
+              <div className="xs:w-28 lg:w-52 flex justify-center items-center shadow-md rounded-md cursor-pointer">
+                <Image src={facebookreview} Link="https://www.facebook.com/wellbenix/" alt="" className='bg-cover' />
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className=" lg:mt-20 xl:mt-10">
+          <div className="md:w-96">
+            <Image src={Wellbenix} alt="" className='bg-cover' />
           </div>
         </div>
       </div>
@@ -52,21 +57,24 @@ export function Hero() {
             <h1 className="lg:text-[30px] xl:text-[40px] xs:text-start font-bold text-[#0125ca]">Unlock Growth Potential with <br /> Expert Web Development <br />& Marketing Solutions</h1>
             <p className="lg:text-lg py-10 text-gray-500 ">Elevate your online presence and supercharge sales with our comprehensive web development and marketing expertise. We create stunning websites and strategic marketing campaigns that drive real results for businesses like yours.
             </p>
-            <div className="">
-              <Link href="/Connect">
-                <button className=" xs:px-5 sm:hidden xs:text-sm lg:px-10 xs:py-1 lg:py-4 z-10 bg-white text-[#060922] hover:bg-white hover:text-[#0125ca] font-semibold duration-500 rounded-md">
-                  Connect Now!
-                </button>
+            <div className="flex items-center space-x-5">
+              <Link href="https://www.google.com/search?q=wellbenix&oq=wellbenix&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYOzIGCAQQIxgnMgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEINzEyOGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0xaafa210090b32df5:0xef42f05da31b0a1,1">
+                <div className="w-52 shadow-md rounded-md cursor-pointer">
+                  <Image src={googlereview} alt="" className='bg-cover' />
+                </div>
               </Link>
-              <Link href="/Connect">
-                <button className=" xs:px-5 xs:hidden sm:block xs:text-sm xl:text-base lg:px-10  xs:py-2 lg:py-4 z-10 bg-[#0125ca]  text-white font-semibold duration-500 rounded-md">
-                  Claim Free Consultation Now!
-                </button>
+              <Link href="https://www.facebook.com/wellbenix/">
+                <div className="w-52 shadow-md rounded-md cursor-pointer">
+                  <Image src={facebookreview} Link="https://www.facebook.com/wellbenix/" alt="" className='bg-cover' />
+                </div>
               </Link>
             </div>
           </div>
-          <div className="w-[100%] lg:mt-10 xl:mt-0 ">
-            <div className="relative w-full bg-red-500">
+          <div className="w-[105%] lg:mt-20 xl:mt-10">
+            <div className=" ">
+              <Image src={Wellbenix} alt="" className='bg-cover' />
+            </div>
+            {/* <div className="relative w-full bg-red-500">
               <div className='absolute w-full bg-cover z-10'>
                 <Image src={shape0} alt="" className='bg-cover ' />
               </div>
@@ -79,7 +87,7 @@ export function Hero() {
               <div className='absolute top-5 left-5 w-full bg-cover '>
                 <Image src={Background} alt="" className='bg-cover ' />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="w-full flex justify-center items-center absolute lg:bottom-5 xl:-bottom-40">
