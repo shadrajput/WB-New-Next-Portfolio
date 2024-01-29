@@ -1,18 +1,12 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Popover, Transition } from '@headlessui/react'
-import clsx from 'clsx'
 import Image from "next/image";
 import Logo from '../../public/images/black_logo.png'
 import { useRouter } from 'next/router';
 import { HiMenu } from "react-icons/hi"
 import { BsTelephoneFill } from "react-icons/bs"
-import { IoMdCall } from "react-icons/io"
-import { IoMdMail } from "react-icons/io"
 import { RxCross2 } from "react-icons/rx"
-import { AiFillLinkedin } from "react-icons/ai"
-import { AiOutlineInstagram } from "react-icons/ai"
-import { AiOutlineFacebook } from "react-icons/ai"
+
 
 
 export function Header(props) {
