@@ -14,12 +14,12 @@ export function Footer() {
     <>
       <div className='xs:pb-14 xl:pb-0 xs:px-10 bg-black flex  flex-col justify-start items-center' id="ContactUs">
         <div className="grid xs:grid-cols-1 lg:grid-cols-3 xs:gap-5 w-full justify-center items-center lg:pl-10 xl:pl-32 xl:py-10 ">
-          <div className="flex xs:flex-col justify-start items-start xs:space-y-3 xl:space-y-10 pt-10 lg:py-10">
+          <div className="flex xs:flex-col justify-start items-start xs:space-y-3 xl:space-y-10 pt-10 lg:py-10 2xl:pr-32">
             <div className="w-52">
               <Image src={Logo} alt="Wellbenix Logo" className='' />
             </div>
             <div className="">
-              <p className="w-full font-bold xs:text-base text-2xl  xl:font-normal text-slate-300 xl:text-sm">We are Website and Ecommerce Agency.<br /> We provide Webiste and  Ecommerce store<br /> development service.</p>
+              <p className="w-full font-bold xs:text-base text-2xl  xl:font-normal text-slate-300 ">We create stunning websites and strategic marketing campaigns that drive real results for businesses like yours.</p>
             </div>
             <div className="flex xs:justify-center xs:items-center lg:items-center lg:justify-start space-x-3 ">
               <div className="hover:bg-gradient-to-r from-[#2439ff] to-[#9000ff] group bg-white px-2 rounded-full py-2 hover:scale-90 duration-500">
@@ -76,7 +76,7 @@ export function Footer() {
                 </div>
                 <div className=" flex flex-col  items-start justify-center">
                   <h1 className="text-[#666] text-sm">
-                    For Rental Call
+                    Call
                   </h1>
                   <p className="text-white font-semibold">+91 7041106701</p>
                 </div>
@@ -87,7 +87,7 @@ export function Footer() {
                 </div>
                 <div className=" flex flex-col  items-start justify-center">
                   <h1 className="text-[#666] text-sm">
-                    Send us Email
+                    Email
                   </h1>
                   <p className="text-white font-semibold">Wellbenix@gmail.com</p>
                 </div>
