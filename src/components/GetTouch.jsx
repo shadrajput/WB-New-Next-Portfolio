@@ -1,49 +1,38 @@
 import React, { useState } from "react";
 import Link from 'next/link'
-
+import Image from 'next/image'
+import aldeenar from '../../public/images/aldeenar.png'
 
 export default function Subscribe() {
     return (
         <>
-            <div className='xs:py-14 xl:py-20 sm:px-14 xl:px-20'>
-                <div className="w-full flex xs:flex-col lg:flex-row justify-center items-center h-full">
-                    <div className="xl:w-[48%] xs:w-full bg-[#eff4fb] p-10 px-10 rounded-l-sm">
-                        <div className='flex justify-start xs:justify-center items-center xl:justify-start'>
-                            <h1 className="uppercase bg-[#2730ed24] text-[#0125ca] font-semibold text-start rounded-md py-1 px-3 text-sm ">GET IN TOUCH</h1>
-                        </div>
-                        <h2
-                            id="testimonials-title"
-                            className="font-display text-3xl font-semibold tracking-tight text-start xs:text-center xl:text-start text-slate-900 sm:text-4xl py-3"
-                        >
-                            Know more about us.
-                        </h2>
-                        <p className="tracking-tight text-start xs:text-center text-slate-500 text-sm xl:text-start">
-                            Wellbenix Solutions has crafted diverse website development and marketing solutions that empower our clients to generate 5000$+/Month on ROI. It is truly gratifying to witness how our work has proven beneficial for them, and we are dedicated to enhancing our contribution to their continued success.
-                        </p>
-                        <div className="py-6">
-                            <div className="flex items-center space-x-3">
-                            <h1 className="text-slate-900 text-xl font-semibold xs:text-center xl:text-start">+91 7041106701</h1>
-                            </div>
-                            <h1 className="uppercase text-[#0125ca] xs:text-center font-semibold text-start rounded-md py-1 text-sm xl:text-start ">
-                                CALL US ANYTIME</h1>
-                            <p className="text-[#141b35] xs:text-center sm:text-start">For all IT related work and taking your business on online</p>
-                        </div>
-                    </div>
-                    <div className="xl:w-[52%] xs:w-full px-10 bg-[#141b35] py-10 rounded-md">
-                        <div className="">
-                            <h1 className="text-white text-[45px] font-bold text-center">Start your Project
-                                <span className="font-extrabold ml-3 text-transparent bg-clip-text bg-gradient-to-r from-[#d5ff54] to-[#addeff]" >Today</span>
-                            </h1>
-                            <p className="mt-4 text-base tracking-tight text-center text-slate-500">
-                                Appropriate for your specific business, making it easy for you to have quality IT services.
-                            </p>
-                        </div>
-                        <div className="py-10 text-center ">
-                            <Link href="/Connect">
-                                <button className="text-[#0125ca] mt-5 w-full py-5 rounded-md font-semibold  bg-gradient-to-r from-[#d5ff54]  to-[#addeff]">Get Started</button>
-                            </Link>
+            <div className='px-7 mt-24 xl:mt-24 xl:px-36'>
+                <div className=" w-full flex xs:flex-col lg:flex-row justify-between items-center h-[600px] bg-[#000000] px-5  xl:px-20  relative overflow-hidden  rounded-2xl">
 
+                    <div className="bg-gradient-to-t from-[#1179fc] to-[#dc82fc] rounded-lg h-80 w-[900px] rotate-[-55deg] blur-2xl shadow-2xl shadow-purple-500 absolute top-0 left-0 -translate-x-[500px] translate-y-0">
+                    </div>
+                    <div className="bg-gradient-to-t from-[#1179fc] to-[#dc82fc] h-96 w-[300px] rounded-full blur-2xl shadow-2xl shadow-purple-500 absolute right-[135px] bottom-0">
+                    </div>
+
+
+                    <div className="flex flex-col lg:flex-row justify-center items-center lg:justify-between w-full">
+                        <div className='lg:w-[55%] xl:w-[60%] space-y-7 p-5 z-50'>
+                            <h1 className='text-white  text-center lg:text-start text-[30px] sm:text-4xl xl:text-[52px] leading-tight font-bold w-full'>Aldeenar Fashion's Website Design by
+                                <span className='bg-gradient-to-r from-[#1179fc] to-[#dc82fc] text-transparent bg-clip-text'>  us Became a Sales Tsunami.</span></h1>
+                            <p className='text-white xl:text-[20px] font-normal hidden lg:block'>Aldeenar Fashion teamed up with Wellbenix, a top-notch web agency, to give their online platform a makeover. Their goal was to make it friendlier and more fun for users. Wellbenix focused on making things easy to find, putting up clear info, and making sure it worked well on phones too.</p>
+                            <div className="flex items-center justify-center w-full lg:items-start lg:justify-start">
+                                <Link href="https://calendly.com/wellbenix/website-strategy-for-online-sales?month=2024-02">
+                                    <button className="rounded-full px-10 lg:py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase hover:bg-white hover:text-[#1179fc] duration-300 ">Book A Call</button>
+                                </Link>
+                            </div>
                         </div>
+
+
+                        <div className='lg:w-[35%] mt-1 rounded-lg sm:w-1/2  xl:w-1/4 flex justify-center items-center lg:absolute lg:-bottom-40 lg:right-20 xl:right-32 xl:top-32
+                         '>
+                            <Image src={aldeenar} alt="fess manager logo" className='rounded-lg' />
+                        </div>
+
                     </div>
                 </div>
             </div>

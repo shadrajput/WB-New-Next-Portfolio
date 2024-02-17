@@ -75,7 +75,7 @@ const testimonials = [
     content:
       "A big thank you to Wellbenix for helping us achieve our goal with the 'CBL' website. Their commitment to providing basketball enthusiasts with a fun platform was absolutely amazing.",
     author: {
-      name: 'Bhavin Sir',
+      name: 'Bhavin Shah',
       role: 'HOD of MCA at LJ University',
       image: avatarImage,
     },
@@ -93,7 +93,7 @@ const testimonials = [
 ]
 
 export default function Testimonials() {
-  const [noOfElement, setnoOfElement] = useState(4)
+  const [noOfElement, setnoOfElement] = useState(6)
   const slice = testimonials.slice(0, noOfElement)
 
   const loadMore = () => {
@@ -104,56 +104,38 @@ export default function Testimonials() {
       <section
         id="testimonials"
         aria-labelledby="testimonials-title"
-        className="bg-slate-50 pt-28 xs:px-10 xs:py-14 xl:px-20">
-        <div className="w-full flex justify-center items-center ">
-          <div className='max-w-3xl'>
-            <div className='flex justify-center items-center'>
-              <h1 className="uppercase bg-[#2730ed24] text-[#0125ca] font-semibold text-center rounded-md py-1 px-3 text-sm ">CLIENT’S WORD</h1>
-            </div>
-            <h2
-              id="testimonials-title"
-              className="font-display text-3xl font-semibold tracking-tight text-center text-slate-900 sm:text-4xl py-3"
-            >
-              Appreciations From Our Satisfied Customers.
-            </h2>
-            <p className="mt-4 text-base tracking-tight text-center text-slate-500">
-
-              We value the experimentation, the reformation of the message, and the smart incentives. We offer a variety of services and solutions Worldwide and this is at the heart of how we approach our.
-            </p>
-          </div>
+        className="bg-slate-50 pt-20 xl:pt-32 xs:px-10 xl:px-20">
+        <div className="w-full flex justify-center items-center">
+          <h2
+            className="font-display text-3xl sm:text-2xl md:text-3xl text-center text-[#0f0f0fa6] w-[750px]">
+            See why thousands of business, recruiters, and <span className="text-black font-medium">entrepreneurs love Wellbenix.</span>
+          </h2>
         </div>
         <div className='xl:px-0'>
-          <ul className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-4">
+          <ul className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
             {
               slice.map((item, index) => {
                 return (
                   <li key={index}>
-                    <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
-
-                      <div className='py-4 flex space-x-2'>
-                        <AiFillStar className='text-yellow-400 text-lg' />
-                        <AiFillStar className='text-yellow-400 text-lg' />
-                        <AiFillStar className='text-yellow-400 text-lg' />
-                        <AiFillStar className='text-yellow-400 text-lg' />
-                        <AiFillStar className='text-yellow-400 text-lg' />
-                      </div>
+                    <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-[#243aff16] w-full">
                       <blockquote className="relative">
-                        <p className="text-lg tracking-tight text-slate-900">
+                        <p className="text-lg tracking-tight text-[#0f0f0fbf]">
                           {item.content}
                         </p>
                       </blockquote>
-                      <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+                      <figcaption className="relative mt-6 flex items-center justify-start space-x-5 border-t border-slate-100 pt-6">
+                        <div className="h-14 w-14 overflow-hidden rounded-full bg-slate-50">
+                          <Image src={item.author.image} alt="" />
+                        </div>
                         <div>
                           <div className="font-display text-base text-[#141b35] font-semibold">
                             {item.author.name}
                           </div>
-                          <div className="mt-1 text-sm text-[#0125ca] ">
+                          <div className="mt-1 text-sm text-[#0f0f0f99] ">
                             {item.author.role}
                           </div>
                         </div>
-                        <div className="h-14 w-14 overflow-hidden rounded-full bg-slate-50">
-                          <Image src={item.author.image} alt="" />
-                        </div>
+
                       </figcaption>
                     </figure>
                   </li>
@@ -166,15 +148,15 @@ export default function Testimonials() {
         </div>
         {
           slice.length < testimonials.length
-          ?
-            <div className="flex justify-center w-full items-center pt-5">
+            ?
+            <div className="flex justify-center w-full items-center pt-10">              
               <button
                 onClick={() => loadMore()}
-                className=" xs:px-5 xs:text-sm lg:px-10 xs:py-1 lg:py-3 z-10 bg-gradient-to-r from-[#2439ff] to-[#9000ff] text-white font-semibold duration-500 rounded-md">
+                className="rounded-full px-10 lg:py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase border-2 hover:bg-white hover:text-[#1179fc] duration-300">
                 Load More
               </button>
             </div>
-          : 
+            :
             null
         }
       </section>

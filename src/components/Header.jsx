@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from "next/image";
-import Logo from '../../public/images/black_logo.png'
+import Logo from '../../public/images/logo.png'
 import { useRouter } from 'next/router';
 import { HiMenu } from "react-icons/hi"
 import { BsTelephoneFill } from "react-icons/bs"
@@ -10,19 +10,19 @@ import { RxCross2 } from "react-icons/rx"
 
 
 export function Header(props) {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  // const [scrollPosition, setScrollPosition] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollPosition(window.scrollY);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setScrollPosition(window.scrollY);
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   const NavLink = [
     {
@@ -52,56 +52,87 @@ export function Header(props) {
 
   return (
     <>
-      <header className={` lg:z-20 2xl:px-5 w-full fixed top-0 z-[999] py-1.5 md:py-0 xl:py-0 duration-300 ${scrollPosition > 0 ? 'bg-white shadow-lg' : ''}  xs:bg-none lg:bg-white `}>
+      {/* <header className={` lg:z-20 2xl:px-20 w-full fixed top-0 z-[999] py-1.5 md:py-0 h-20 duration-300 ${scrollPosition > 0 ? 'bg-white shadow-lg' : ''}  xs:bg-none lg:bg-black `}> */}
+      <header className='h-0 lg:h-28 lg:z-20 lg:px-5 2xl:px-28 w-full z-[999]  xl:h-28 duration-300 bg-black flex justify-center items-center'>
         <nav className="relative z-50 text-sm w-full">
-          <div className="flex flex-col md:flex-row items-center w-full xl:justify-between">
-            <div className='flex items-center  justify-between w-full md:w-52 xl:w-0 xs:px-3 xs:py-1'>
-              <div>
+
+          <div className="flex items-center w-full justify-between">
+
+            <div className='flex items-center justify-between w-full lg:w-1/4 px-3 sm:px-5 mt-20 lg:mt-0'>
+              <div className=''>
                 <Link href="/">
-                  <div className='w-24 sm:w-32 xl:w-52 cursor-pointer '>
+                  <div className='w-32 sm:w-36 md:w-40 cursor-pointer '>
                     <Image src={Logo} alt="fess manager logo" className='' />
                   </div>
                 </Link>
               </div>
-              <div className='md:hidden' onClick={() => setmenu(!menu)}>
+              <div className='lg:hidden' onClick={() => setmenu(!menu)}>
                 {
                   menu ?
-                    <RxCross2 className='text-xl xs:text-2xl' />
+                    <RxCross2 className='text-xl xs:text-2xl text-white' />
                     :
-                    <HiMenu className='text-xl xs:text-2xl' />
+                    <HiMenu className='text-xl xs:text-2xl text-white' />
                 }
               </div>
             </div>
-            <div className={` ${menu ? "xs:top-10 sm:top-12 opacity-100  bg-white shadow-xl md:shadow-none " : "top-[-500px] opacity-0 md:opacity-100"}  w-full
-          md:static py-5 sm:py-6 xl:py-6 md:pt-5 absolute duration-500 md:flex md:items-center  md:mr-0 lg:mr-16 xl:mr-0 xl:flex xl:justify-end xl:items-center`}>
-              <div className='flex flex-col h-full items-start space-y-5 text-left w-full px-5 || md:space-x-7 md:flex-row xl:w-full 
-            md:items-center md:space-y-0 md:justify-end '>
+
+
+
+            <div className={` ${menu ? "py-3 mt-12 top-0 opacity-100  shadow-xl md:shadow-none h-screen " : "top-[-500px] opacity-0 md:opacity-100"} w-full
+          lg:static absolute duration-500  md:items-center xl:flex xl:justify-center xl:items-center bg-black`}>
+
+              <div className='lg:hidden flex justify-end p-5' onClick={() => setmenu(!menu)}>
                 {
-                  NavLink.map(({ link, name }) => (
-                    <Link
-                      name={name}
-                      key={name}
-                      href={link}
-                    >
-                      <a className=" text-[#0126ca] md:text-[#060922] font-semibold md:hover:text-[#0126ca] md:hover:border-b-2 md:hover:border-[#0126ca] duration-200 text-[15px]">
-                        {name}
-                      </a>
-                    </Link>
-                  ))
+                  menu ?
+                    <RxCross2 className='text-xl xs:text-2xl text-white' />
+                    :
+                    <HiMenu className='text-xl xs:text-2xl text-white' />
                 }
-                <div className='flex items-center space-x-3 md:hidden xl:flex'>
-                  <div className='bg-[#0125ca] w-11 h-11 flex justify-center items-center rounded-full'>
-                    <BsTelephoneFill className='text-white group-hover:text-[#171f42] text-xl' />
-                  </div>
-                  <div className='flex-col flex items-center justify-center '>
-                    <div className='flex flex-col  items-center'>
-                      <h1 className='font-bold text-[17px] xl:text-[15px] xs:text-[#0126caa8] text-white'>+91 7041106701</h1>
-                    </div>
-                  </div>
-                </div>
               </div>
+
+              <div className='flex flex-col justify-center items-center md:justify-start space-y-5 md:space-y-7 h-full lg:space-y-0 '>
+              
+                <div className='w-full flex justify-center lg:hidden'>
+                  <Link href="/">
+                    <div className='w-48 md:w-52'>
+                      <Image src={Logo} alt="fess manager logo" className='' />
+                    </div>
+                  </Link>
+                </div>
+
+                <div className='flex flex-col items-center space-y-5 text-left w-full px-5 || lg:space-x-7 lg:flex-row xl:w-full 
+            lg:items-center lg:space-y-0 lg:justify-center '>
+                  {
+                    NavLink.map(({ link, name }) => (
+                      <Link
+                        name={name}
+                        key={name}
+                        href={link}
+                      >
+                        <a className="text-white font-bold text-xl md:hover:text-[#1179fc] lg:text-base">
+                          {name}
+                        </a>
+                      </Link>
+                    ))
+                  }
+                </div>
+                <div className='w-1/2 flex justify-center pt-5 lg:hidden '>
+                  <Link href="https://calendly.com/wellbenix/website-strategy-for-online-sales?month=2024-02">
+                    <button className="rounded-full px-10 py-2 md:py-3 bg-[#1179fc] font-bold text-white uppercase hover:bg-white hover:text-[#1179fc] duration-300 ">Book a Call</button>
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div className='w-1/2 lg:w-1/3  justify-end hidden lg:block'>
+              <Link href="https://calendly.com/wellbenix/website-strategy-for-online-sales?month=2024-02">
+                <button className="rounded-full px-10 lg:py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase hover:bg-white hover:text-[#1179fc] duration-300 ">Book a Call</button>
+              </Link>
             </div>
           </div>
+
         </nav>
       </header>
     </>

@@ -92,52 +92,52 @@ const row2 = [
 export default function Clients() {
     return (
         <>
-            <div className='flex flex-col w-full justify-center items-center mt-10 xs:order-1 lg:order-2 '>
-                <div className='flex justify-center items-center lg:justify-start'>
-                    <h1 className="uppercase bg-[#2730ed24] mb-5 text-center text-[#0125ca] flex justify-center items-center rounded-md py-1 px-5 text-sm font-semibold ">OUR CLIENTS</h1>
+            <section className=''>
+
+                <div className='px-7 sm:mt-10 lg:mt-20 xl:mt-24'>
+                    <h1 className='text-black text-center text-[35px] sm:text-4xl lg:text-[50px] leading-none font-bold'>Long Time Project, with Our
+                        <br /> <span className='bg-gradient-to-r from-[#1179fc] to-[#dc82fc] text-transparent bg-clip-text'>Best Partner.</span></h1>
                 </div>
-                <h1 className="text-slate-900 text-center text-3xl xl:text-4xl w-full font-bold pb-5">
-                    Long Time Project, with Our<br /><span className='text-[#0125ca]'>Best Partner</span>
-                </h1>
-                <p className="text-[#666666] xs:text-sm text-center xs:px-10">We’ve been lucky to collaborate with a long list of customers, located in and out of the country. Thanks to them we havegrown as professionals.</p>
-            </div>
-            <div className='flex flex-col justify-center items-center sm:px-5 xl:px-20'>
-                <Marquee className='py-5'>
-                    <MarqueeGroup className=''>
-                        {row1.map((item, index) => (
-                            <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36 ' key={index} >
-                                <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
-                            </ImageGroup>
-                        ))}
-                    </MarqueeGroup>
-                    <MarqueeGroup className=''>
-                        {row1.map((item, index) => (
-                            <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36 ' key={index}>
-                                <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
 
-                            </ImageGroup>
-                        ))}
-                    </MarqueeGroup>
-                </Marquee>
-                <Marquee className='py-5'>
-                    <MarqueeGroup2 className=''>
-                        {row2.map((item, index) => (
-                            <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36' key={index}>
-                                <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                <div className=' flex flex-col justify-center items-center mt-3 lg:mt-5 xl:mt-10'>
+                    <Marquee className='py-5'>
+                        <MarqueeGroup className=''>
+                            {row1.map((item, index) => (
+                                <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36 ' key={index} >
+                                    <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                                </ImageGroup>
+                            ))}
+                        </MarqueeGroup>
+                        <MarqueeGroup className=''>
+                            {row1.map((item, index) => (
+                                <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36 ' key={index}>
+                                    <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
 
-                            </ImageGroup>
-                        ))}
-                    </MarqueeGroup2>
-                    <MarqueeGroup2 className=''>
-                        {row2.map((item, index) => (
-                            <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36' key={index}>
-                                <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                                </ImageGroup>
+                            ))}
+                        </MarqueeGroup>
+                    </Marquee>
+                    <Marquee className='py-5'>
+                        <MarqueeGroup2 className=''>
+                            {row2.map((item, index) => (
+                                <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36' key={index}>
+                                    <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
 
-                            </ImageGroup>
-                        ))}
-                    </MarqueeGroup2>
-                </Marquee>
-            </div>
+                                </ImageGroup>
+                            ))}
+                        </MarqueeGroup2>
+                        <MarqueeGroup2 className=''>
+                            {row2.map((item, index) => (
+                                <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36' key={index}>
+                                    <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+
+                                </ImageGroup>
+                            ))}
+                        </MarqueeGroup2>
+                    </Marquee>
+                </div>
+
+            </section>
         </>
     )
 }

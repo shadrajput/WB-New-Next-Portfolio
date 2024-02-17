@@ -13,7 +13,7 @@ import Clients from '@/components/Clients'
 import AboutUs from '@/components/AboutUs'
 import Projects from '@/components/Projects'
 import Technology from '@/components/Technology'
-import { ContactUs } from '@/components/ContactUs'
+import { FAQ } from '@/components/FAQ'
 
 export default function Home() {
   return (
@@ -33,14 +33,14 @@ export default function Home() {
         <AboutUs />
         <Services />
         {/* <TotalClientsProjects /> */}
-        <Projects />
-        <Technology />
-        <GetTouch />
         <Testimonials />
-        <ContactUs />
+        <Projects />
+        <GetTouch />
+        <FAQ />
         <GoToTop />
       </main>
       <Footer />
+
 
     </>
   )
