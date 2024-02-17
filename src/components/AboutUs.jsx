@@ -14,8 +14,8 @@ export default function AboutUs() {
                 <defs>
                   <path id="circlePath" d="M 60,60 m -50,0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0" fill="transparent" />
                 </defs>
-                <text font-size="16" font-family="Arial" fill="white" letter-spacing="3.5">
-                  <textPath href="#circlePath" stroke="white" stroke-width="1" stroke-linejoin="round">Premium Support & Services</textPath>
+                <text fontSize="16" fontFamily="Arial" fill="white" letterSpacing="3.5">
+                  <textPath href="#circlePath" stroke="white" strokeWidth="1" strokeLinejoin="round">Premium Support & Services</textPath>
                 </text>
               </svg>
               <div className='border-2 border-white w-10 h-10 sm:w-12 sm:h-12 lg:h-[70px]  lg:w-[70px] absolute rounded-full'>

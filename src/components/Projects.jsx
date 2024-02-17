@@ -153,7 +153,7 @@ export default function Projects() {
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-10 xl:gap-20 mt-10 xl:mt-20">
                     {slice.map((Item, columnIndex) => (
-                        <Link href={Item.Link}>
+                        <Link href={Item.Link} key={columnIndex}>
                             <div className="rounded-2xl h-[170px] lg:h-[230px] xl:h-[310px] bg-cover relative group cursor-pointer  overflow-hidden" key={columnIndex}>
                                 <Image className='block object-cover object-center group-hover:scale-110 duration-500 ' src={Item.image} height={1000} alt="" />
                                 <div className="bg-gradient-to-t from-black h-1/2 xl:h-1/3 bottom-0 w-full absolute">

@@ -104,14 +104,14 @@ export default function Clients() {
                         <MarqueeGroup className=''>
                             {row1.map((item, index) => (
                                 <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36 ' key={index} >
-                                    <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                                    <Image src={item.image.src} alt='E-commerce webiste desing' className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
                                 </ImageGroup>
                             ))}
                         </MarqueeGroup>
                         <MarqueeGroup className=''>
                             {row1.map((item, index) => (
                                 <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36 ' key={index}>
-                                    <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                                    <Image src={item.image.src} alt='Best Website desing agency' className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
 
                                 </ImageGroup>
                             ))}
@@ -121,7 +121,7 @@ export default function Clients() {
                         <MarqueeGroup2 className=''>
                             {row2.map((item, index) => (
                                 <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36' key={index}>
-                                    <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                                    <Image src={item.image.src} alt='Fashion webiste desing ' className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
 
                                 </ImageGroup>
                             ))}
@@ -129,7 +129,7 @@ export default function Clients() {
                         <MarqueeGroup2 className=''>
                             {row2.map((item, index) => (
                                 <ImageGroup className=' xs:px-[2px] sm:px-2 flex xs:w-full lg:w-36' key={index}>
-                                    <Image src={item.image.src} className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
+                                    <Image src={item.image.src} alt='Fashion ecommerce store' className=' xs:p-[2px] xl:p-[10px] object-contain h-full w-full rounded-sm shadow-md' />
 
                                 </ImageGroup>
                             ))}
