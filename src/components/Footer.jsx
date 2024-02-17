@@ -23,7 +23,7 @@ export function Footer() {
               <h1 className="text-[#0f0f0f] text-6xl lg:text-7xl xl:text-[90px] font-extrabold text-start mb-[20px] ">
                 Let's Talk<br /><span className="bg-gradient-to-r from-[#1179fc] to-[#dc82fc] text-transparent bg-clip-text">Strategy</span>
               </h1>
-              <p className="text-black font-semibold text-sm md:text-[20px] text-start mb-[40px]">Let's discuss your success at wellbenix@gmail.com</p>
+              <p className="text-black font-semibold text-base md:text-[20px] text-start mb-[40px]">Let's discuss your success at wellbenix@gmail.com</p>
             </div>
             <ContactUs />
           </div>

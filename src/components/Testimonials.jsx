@@ -112,7 +112,7 @@ export default function Testimonials() {
           </h1>
         </div>
         <div className='xl:px-0'>
-          <ul className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
+          <ul className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
             {
               slice.map((item, index) => {
                 return (
