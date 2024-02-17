@@ -104,12 +104,12 @@ export default function Testimonials() {
       <section
         id="testimonials"
         aria-labelledby="testimonials-title"
-        className="bg-slate-50 pt-20 xl:pt-32 xs:px-10 xl:px-20">
+        className="pt-20 xl:pt-32 xs:px-10 xl:px-20">
         <div className="w-full flex justify-center items-center">
-          <h2
-            className="font-display text-3xl sm:text-2xl md:text-3xl text-center text-[#0f0f0fa6] w-[750px]">
-            See why thousands of business, recruiters, and <span className="text-black font-medium">entrepreneurs love Wellbenix.</span>
-          </h2>
+
+          <h1 className='text-black text-center text-[35px] sm:text-4xl lg:text-[50px] leading-none font-bold'>
+            Client's <span className="bg-gradient-to-r from-[#1179fc] to-[#dc82fc] text-transparent bg-clip-text">Spotlight</span> 
+          </h1>
         </div>
         <div className='xl:px-0'>
           <ul className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
@@ -149,10 +149,10 @@ export default function Testimonials() {
         {
           slice.length < testimonials.length
             ?
-            <div className="flex justify-center w-full items-center pt-10">              
+            <div className="flex justify-center w-full items-center pt-10">
               <button
                 onClick={() => loadMore()}
-                className="rounded-full px-10 lg:py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase border-2 hover:bg-white hover:text-[#1179fc] duration-300">
+                className="rounded-full px-10 py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase border-2 hover:bg-white hover:text-[#1179fc] duration-300">
                 Load More
               </button>
             </div>

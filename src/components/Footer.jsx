@@ -20,10 +20,10 @@ export function Footer() {
         <div className="w-full px-5 lg:px-16 xl:px-32 flex flex-col lg:flex-row items-center " id='ContactUs'>
           <div className="w-full rounded-lg py-10 xl:py-14 -mt-52 z-50 px-7 lg:px-16 xl:px-20 flex flex-col lg:flex-row lg:items-start items-center xl:space-x-10 shadow-xl bg-white">
             <div>
-              <h1 className="text-[#0f0f0f] text-5xl lg:text-7xl xl:text-[90px] font-extrabold text-start mb-[20px] ">
+              <h1 className="text-[#0f0f0f] text-6xl lg:text-7xl xl:text-[90px] font-extrabold text-start mb-[20px] ">
                 Let's Talk<br /><span className="bg-gradient-to-r from-[#1179fc] to-[#dc82fc] text-transparent bg-clip-text">Strategy</span>
               </h1>
-              <p className="text-black font-semibold text-[20px] text-start mb-[40px]">Let's discuss your success at wellbenix@gmail.com</p>
+              <p className="text-black font-semibold text-sm md:text-[20px] text-start mb-[40px]">Let's discuss your success at wellbenix@gmail.com</p>
             </div>
             <ContactUs />
           </div>
@@ -61,10 +61,10 @@ export function Footer() {
           </div>
           <div className="py-5 md:py-10 w-full ">
             <div className="flex items-center space-x-5">
-              <h1 className="text-white font-bold  xl:text-2xl">Contact Out Team</h1>
+              <h1 className="text-white font-bold text-2xl">Contact Out Team</h1>
               <div className="w-14 bg-gradient-to-r from-[#2439ff] to-[#9000ff] h-[4px]">.</div>
             </div>
-            <nav className="pt-10 space-y-10 ">
+            <nav className="pt-10 space-y-5 md:space-y-10 ">
               <Link href="https://www.linkedin.com/in/deepakmarketing/">
                 <li className="flex items-center space-x-5">
                   <p className="text-white font-semibold hover:cursor-pointer hover:ml-3 duration-500">Deepak Prajapati</p>
@@ -84,7 +84,7 @@ export function Footer() {
           </div>
           <div className="py-5 md:py-10 w-full ">
             <div className="flex items-center space-x-5">
-              <h1 className="text-white font-bold  xl:text-2xl ">Official Link</h1>
+              <h1 className="text-white font-bold text-2xl ">Official Link</h1>
               <div className="w-14 bg-gradient-to-r from-[#2439ff] to-[#9000ff] h-[4px]">.</div>
             </div>
             <nav className="pt-10 space-y-5 ">

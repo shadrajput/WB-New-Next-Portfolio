@@ -49,7 +49,7 @@ export function FAQ() {
 
     return (
         <>
-            <div  className="px-7 mt-10 sm:mt-16 md:mt-24 xl:px-36 justify-center w-full">
+            <div  className="px-7 mt-16 md:mt-24 xl:px-36 justify-center w-full">
                 <div>
                     <h1 className='text-black text-center text-[35px] sm:text-4xl  lg:text-[50px] leading-none font-bold'>Frequantly Ask
                         <br /> <span className='bg-gradient-to-r from-[#2439ff] to-[#9000ff] text-transparent bg-clip-text'>Question.</span></h1>
@@ -64,7 +64,7 @@ export function FAQ() {
                                         onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); setAccordionId(i) }}
                                         aria-expanded={accordionOpen && accordionId == i}
                                         aria-controls={`accordion-text-${i}`}>
-                                        <span className='text-lg'>{item.question}</span>
+                                        <span className='text-sm md:text-lg'>{item.question}</span>
                                         <svg className="shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                                             <rect y="7" width="16" height="2" rx="1" className={`ttransform origin-center  transition duration-200 ease-out ${accordionOpen && accordionId == i && '!rotate-180'}`} />
                                             <rect y="7" width="16" height="2" rx="1" className={`transform origin-center rotate-90  transition duration-200 ease-out ${accordionOpen && accordionId == i && '!rotate-180'}`} />
@@ -77,7 +77,7 @@ export function FAQ() {
                                     aria-labelledby={`accordion-title-${i}`}
                                     className={`grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out ${accordionOpen && accordionId == i ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
                                 >
-                                    <div className="overflow-hidden bg-[#243aff16] text-lg rounded-b-lg px-10 ">
+                                    <div className="overflow-hidden bg-[#243aff16] text-sm md:text-lg rounded-b-lg px-10 ">
                                         <p className="py-3">
                                             {item.Answer}
                                         </p>

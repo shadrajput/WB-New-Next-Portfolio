@@ -90,7 +90,7 @@ export function Header(props) {
                 }
               </div>
 
-              <div className='flex flex-col justify-center items-center md:justify-start space-y-5 md:space-y-7 h-full lg:space-y-0 '>
+              <div className='flex flex-col justify-start mt-10 items-center md:justify-start space-y-5 md:space-y-7 h-full lg:space-y-0 '>
               
                 <div className='w-full flex justify-center lg:hidden'>
                   <Link href="/">

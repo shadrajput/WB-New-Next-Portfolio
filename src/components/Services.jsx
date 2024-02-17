@@ -27,7 +27,7 @@ export default function Services() {
                                 <p className='md:hidden xl:block'>Upgrade your online store with our E-commerce design service. We create user-friendly websites that turn visitors into customers, driving sales and growth for your business.</p>
                             </div>
                         </div>
-                        <div className='md:w-[30%] pt-5 px-10 sm:w-72 md:p-5 sm:flex sm:items-start'>
+                        <div className='w-3/4  md:w-[30%] pt-5 px-10 sm:w-72 md:p-5 sm:flex sm:items-start'>
                             <Image src={GoogleReview} alt="" className='' />
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export default function Services() {
                                 <p className='md:hidden xl:block'>Give your online store a makeover! Our website redesign service makes your site look better and work smoother. That means customers stick around longer and buy more from you.</p>
                             </div>
                         </div>
-                        <div className='md:w-[30%] pt-5 px-10 sm:w-72 md:p-5 sm:flex sm:items-start'>
+                        <div className=' w-3/4 md:w-[30%] pt-5 px-10 sm:w-72 md:p-5 sm:flex sm:items-start'>
                             <Image src={GoogleReview} alt="" className='' />
                         </div>
                     </div>

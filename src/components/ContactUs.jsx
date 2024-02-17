@@ -98,7 +98,7 @@ export function ContactUs() {
                         <input type="text" id="message" name="message" value={Data.message} onChange={handleChnage} required autoComplete="off" placeholder="Message*" className="w-full border border-slate-200 rounded-md h-14" />
                     </div>
                     <div className="mt-10 w-full flex items-center justify-center lg:justify-end lg:items-end">
-                        <button type="submit" className="rounded-full px-10 lg:py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase border-2 hover:bg-white hover:text-[#1179fc] duration-300">
+                        <button type="submit" className="rounded-full px-10 py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase border-2 hover:bg-white hover:text-[#1179fc] duration-300">
                             {isLoadingOnSubmit ? 'Sending...' : 'Submit Now'}
                         </button>
                     </div>

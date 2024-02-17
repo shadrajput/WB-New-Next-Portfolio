@@ -99,7 +99,7 @@ export default function Clients() {
                         <br /> <span className='bg-gradient-to-r from-[#1179fc] to-[#dc82fc] text-transparent bg-clip-text'>Best Partner.</span></h1>
                 </div>
 
-                <div className=' flex flex-col justify-center items-center mt-3 lg:mt-5 xl:mt-10'>
+                <div className=' flex flex-col justify-center items-center mt-5 xl:mt-10'>
                     <Marquee className='py-5'>
                         <MarqueeGroup className=''>
                             {row1.map((item, index) => (

@@ -151,7 +151,7 @@ export default function Projects() {
                 </div>
 
 
-                <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-10 xl:gap-20 mt-10 xl:mt-20">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 xl:gap-20 mt-10 xl:mt-20">
                     {slice.map((Item, columnIndex) => (
                         <Link href={Item.Link} key={columnIndex}>
                             <div className="rounded-2xl h-[170px] lg:h-[230px] xl:h-[310px] bg-cover relative group cursor-pointer  overflow-hidden" key={columnIndex}>
@@ -177,7 +177,7 @@ export default function Projects() {
                         <div className="flex justify-center w-full items-center mt-10 xl:pt-12">
                             <button
                                 onClick={() => loadMore()}
-                                className="rounded-full px-10 lg:py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase border-2 hover:bg-white hover:text-[#1179fc] duration-300">
+                                className="rounded-full px-10 py-2 xl:py-3 bg-[#1179fc] font-bold text-white uppercase border-2 hover:bg-white hover:text-[#1179fc] duration-300">
                                 Load More
                             </button>
                         </div>

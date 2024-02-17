@@ -16,9 +16,9 @@ export default function AboutUs() {
         </div>
 
         <div className=' w-full md:w-[50%] flex flex-col justify-start items-start space-y-5 lg:space-y-10'>
-          <h1 className='text-black text-4xl xl:text-[55px] xl:leading-none font-bold'>Fashion brand's website redesign sparked a 
+          <h1 className='text-black text-[35px] xl:text-[55px] xl:leading-none font-bold'>Fashion brand's website redesign sparked a 
             <span className='bg-gradient-to-r from-[#1179fc] to-[#dc82fc] text-transparent bg-clip-text'> huge sales increase.</span></h1>
-          <p className='text-[#050917] text-sm lg:text-[20px] font-normal'>In the world of marketing, expertise makes all the difference. Drawing from seasoned wisdom, a fashion brand expertly revamped its website. The fresh design attracted more shoppers, resulting in a significant surge in sales. It's proof that leveraging expertise can yield substantial results in the business arena.</p>
+          <p className='text-[#050917] text-[14px] lg:text-[20px] font-normal'>In the world of marketing, expertise makes all the difference. Drawing from seasoned wisdom, a fashion brand expertly revamped its website. The fresh design attracted more shoppers, resulting in a significant surge in sales. It's proof that leveraging expertise can yield substantial results in the business arena.</p>
         </div>
 
       </div>
