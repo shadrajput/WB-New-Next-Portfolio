@@ -56,7 +56,7 @@ export function Header(props) {
       <header className='h-0 lg:h-28 lg:z-20 lg:px-5 2xl:px-28 w-full z-[999]  xl:h-28 duration-300 bg-black flex justify-center items-center'>
         <nav className="relative z-50 text-sm w-full">
 
-          <div className="flex items-center w-full justify-between">
+          <div className="flex  w-full justify-between">
 
             <div className='flex items-center justify-between w-full lg:w-1/4 px-3 sm:px-5 mt-20 lg:mt-0'>
               <div className=''>
