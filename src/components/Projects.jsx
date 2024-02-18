@@ -163,7 +163,7 @@ export default function Projects() {
                                     <h1 className="text-white font-medium font-popins text-2xl  xl:text-3xl text-center">{Item.Name}</h1>
                                 </div>
                                 <div className="bg-gradient-to-r from-[#1179fc] to-[#dc82fc] space-y-5 flex flex-col justify-center items-center -translate-y-96 group-hover:translate-y-0 duration-500 h-full w-full absolute top-0 ">
-                                    <h2 className="text-white xl:text-xl text-center mx-20">{Item.Disc}</h2>
+                                    {/* <h2 className="text-white xl:text-xl text-center mx-20">{Item.Disc}</h2> */}
                                     <p className="bg-white rounded-full font-semibold px-3 py-1 w-40 text-center">{Item.language}</p>
                                 </div>
                             </div>
