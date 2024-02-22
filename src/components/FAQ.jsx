@@ -13,7 +13,7 @@ const Question = [
     },
     {
         id: 2,
-        question: "How much does web cost design ?",
+        question: "How much does it cost to build an eCommerce website?",
         Answer: "We encourage every team member to be a whole person. We have a flexible, high trust environment that is focused on doing great work."
     },
     {

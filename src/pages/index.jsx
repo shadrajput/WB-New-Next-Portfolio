@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wellbenix - Ecommerce Webiste Design Agency </title>
+        <title>Wellbenix - Ecommerce Website Design Agency </title>
         <meta
           name="Wellbenix "
           content="Best E-commerce webiste development Company" />
