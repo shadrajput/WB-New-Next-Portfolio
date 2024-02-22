@@ -22,7 +22,7 @@ export default function Home() {
         <title>Wellbenix - Ecommerce Website Design Agency </title>
         <meta
           name="Wellbenix "
-          content="Best E-commerce webiste development Company" />
+          content="Best E-commerce Website Design Company" />
 
         <meta name="facebook-domain-verification" content="wdq3rkb624gnbazwzhrej9w9qldfc6" />
       </Head>
