@@ -5,7 +5,7 @@ import Tilt from 'react-parallax-tilt';
 export default function AboutUs() {
   return (
     <>
-      <div id="AboutUs" className="mt-20 xl:mt-36 px-7 sm:px-14 flex flex-col md:flex-row items-start md:items-center xl:justify-center space-y-10 md:space-y-0 md:space-x-5 lg:space-x-10 xl:space-x-20  ">
+      <div id="about-us" className="mt-20 xl:mt-36 px-7 sm:px-14 flex flex-col md:flex-row items-start md:items-center xl:justify-center space-y-10 md:space-y-0 md:space-x-5 lg:space-x-10 xl:space-x-20  ">
 
         <div className=' p-2 lg:p-5 rounded-lg md:w-[35%] relative shadow-xl bg-gradient-to-r from-[#117bfc3e] to-[#db82fc58]'>
           <Tilt className="Tilt" options={{ max: 25 }}>

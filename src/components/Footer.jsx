@@ -16,8 +16,7 @@ export function Footer() {
     <>
       <div className='footer-section h-[1500px] sm:h-[1300px] md:h-[1450px] lg:h-[650px] xl:h-[800px] mt-72' >
       
-      
-        <div className="w-full px-5 lg:px-16 xl:px-32 flex flex-col lg:flex-row items-center " id='ContactUs'>
+        <div className="w-full px-5 lg:px-16 xl:px-32 flex flex-col lg:flex-row items-center " id='contact-us'>
           <div className="w-full rounded-lg py-10 xl:py-14 -mt-52 z-50 px-7 lg:px-16 xl:px-20 flex flex-col lg:flex-row lg:items-start items-center xl:space-x-10 shadow-xl bg-white">
             <div>
               <h1 className="text-[#0f0f0f] text-6xl lg:text-7xl xl:text-[90px] font-extrabold text-start mb-[20px] ">

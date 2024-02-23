@@ -5,7 +5,7 @@ import GoogleReview from '../../public/images/googlereview.jpg'
 
 export default function Services() {
     return (
-        <div id="Services" className='services-section  bg-[#f7faff] w-full py-16 lg:py-16 xl:py-20 md:py-10 px-7 mt-10 lg:mt-24 xl:mt-32 xl:px-36 flex flex-col justify-center items-center '>
+        <div id="services" className='services-section  bg-[#f7faff] w-full py-16 lg:py-16 xl:py-20 md:py-10 px-7 mt-10 lg:mt-24 xl:mt-32 xl:px-36 flex flex-col justify-center items-center '>
             <div>
                 <h1 className='text-black text-center text-[30px] sm:text-4xl lg:text-[50px] leading-none font-bold'>Full Creative Services
                     <br /> <span className='bg-gradient-to-r from-[#1179fc] to-[#dc82fc] text-transparent bg-clip-text'> For You.</span></h1>

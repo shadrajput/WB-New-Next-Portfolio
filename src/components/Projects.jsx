@@ -143,7 +143,7 @@ export default function Projects() {
 
     return (
         <>
-            <div id="Portfolio" className=" project-section px-7 mt-20 sm:mt-24 lg:mt-32 xl:px-36">
+            <div id="portfolio" className=" project-section px-7 mt-20 sm:mt-24 lg:mt-32 xl:px-36">
                 <div className="flex flex-col ">
 
                     <h1 className="text-black text-center text-[30px] sm:text-[35px] lg:text-[50px] leading-none font-bold">
