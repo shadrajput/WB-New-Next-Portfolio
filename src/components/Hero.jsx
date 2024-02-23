@@ -1,5 +1,4 @@
 import Tilt from 'react-parallax-tilt';
-import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image";
 import googlereview from '../../public/images/google.svg'
 import facebookreview from '../../public/images/facebook-1.svg'

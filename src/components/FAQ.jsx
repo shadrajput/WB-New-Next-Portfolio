@@ -8,33 +8,33 @@ import 'react-toastify/dist/ReactToastify.css';
 const Question = [
     {
         id: 1,
-        question: "Can you build a webiste in a day ?",
-        Answer: "Our purpose is to build solutions that remove the barriers preventing peoplefrom doing their best work, and this is at the heart of how we approach our"
+        question: "Which company is best for web designing in India ?",
+        Answer: "Wellbenix Fashion Ecommerce Web Design Agency is renowned for its top-notch web design services in India, blending creativity and functionality to create stunning online platforms for businesses."
     },
     {
         id: 2,
-        question: "How much does it cost to build an eCommerce website?",
-        Answer: "We encourage every team member to be a whole person. We have a flexible, high trust environment that is focused on doing great work."
+        question: "How much should I pay a web designer ?",
+        Answer: "The cost of hiring a web designer can vary based on factors like project complexity, features required, and the experience of the designer. At Wellbenix Fashion, we offer competitive pricing tailored to your specific needs and budget."
     },
     {
         id: 3,
-        question: "How many hourse does it take to design a website ?",
-        Answer: "Our purpose is to build solutions that remove barriers preventing people from doing their best work, and this is at the heart."
+        question: "How do I hire a web design company ?",
+        Answer: "Hiring a web design company like Wellbenix Fashion is simple. Reach out to us through our website or contact us directly. We'll discuss your requirements, provide a tailored solution, and guide you through the process seamlessly."
     },
     {
         id: 4,
-        question: "How do I hire a web design company ?",
-        Answer: "Increase social reach and productivity with our App Directory, a collection of famous applications like Instagram other web design."
+        question: "How many hours does it take to design a website ?",
+        Answer: "The time it takes to design a website depends on various factors such as project scope, design complexity, and client feedback cycles. Typically, Wellbenix Fashion strives to deliver high-quality websites within a reasonable timeframe, ensuring efficiency without compromising on quality."
     },
     {
         id: 5,
-        question: "How much should I pay a web designer ?",
-        Answer: "Design studio founded in London and expanded our services, and become a multinational firm, offering services and solutions."
+        question: "How much does it cost to build an eCommerce website ?",
+        Answer: "The cost of building an eCommerce website can vary based on features like design complexity, e-commerce functionality, integrations, and more. At Wellbenix Fashion, we offer transparent pricing structures and customizable packages to suit your specific requirements and budget."
     },
     {
         id: 5,
-        question: "Which company is best for web designing in india ?",
-        Answer: "Design studio founded in London and expanded our services, and become a multinational firm, offering services and solutions."
+        question: "Can you build a website in a day? ",
+        Answer: "While building a website in a day may not be feasible for complex projects, Wellbenix Fashion excels in delivering efficient solutions without compromising quality. We strive to streamline the design and development process to meet your deadlines effectively while ensuring a high standard of workmanship."
     },
 ]
 export function FAQ() {
