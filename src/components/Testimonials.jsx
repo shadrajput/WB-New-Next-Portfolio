@@ -12,7 +12,7 @@ const testimonials = [
     ,
     author: {
       name: 'Viral Shah',
-      role: 'Trusty at LJ University',
+      role: 'Trusty of LJ University',
       image: avatarImage,
     },
   },
@@ -23,7 +23,7 @@ const testimonials = [
     ,
     author: {
       name: 'Mukesh Prajapati',
-      role: 'Founder of WashOn ',
+      role: 'Founder of WashOn',
       image: avatarImage,
     },
   },
@@ -34,7 +34,7 @@ const testimonials = [
     ,
     author: {
       name: 'Nasir Sir',
-      role: 'Founder of Nasir sir and',
+      role: 'Founder of Nasir sir and classes',
       image: avatarImage,
     },
   },
@@ -44,7 +44,7 @@ const testimonials = [
       "Well done to Wellbenix for their great work on the 'Alif School' desktop application.Their skill in creating software made it easier to manage teachers salary and school fees of students.The detailed reports have made our financial record- keeping much simpler."
     ,
     author: {
-      name: 'Nasir Sir ',
+      name: 'Nasir Sir',
       role: 'HOD at Alif School',
       image: avatarImage,
     },
@@ -54,7 +54,7 @@ const testimonials = [
     content:
       "Thank you for transforming our website. Your IT expertise boosted our online presence. It's user-friendly, attractive, and efficiently represents our mattress brand. Exceptional work!",
     author: {
-      name: 'Parvej Alam ',
+      name: 'Parvej Alam',
       role: 'CEO at Sona Mattresses',
       image: avatarImage,
     },
