@@ -22,7 +22,7 @@ const ProjectData = [
     {
         id: 1,
         Name: "Believehoney",
-        Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
+        description: "This is a Ecommerce project and client have ladies shoot showroom and they are design own product and sell online customer in all over India",
         Link: "https://www.believehoney.in/",
         image: beliewhoney,
         language: "Shopify"
@@ -30,15 +30,15 @@ const ProjectData = [
     {
         id: 2,
         Name: "TheCBL",
-        Disc: "This is a simple and clean scorekeeper app to count your points and keep track of your backetball score.",
+        description: "This is a simple and clean scorekeeper app to count your points and keep track of your backetball score.",
         Link: "https://thecbl.in/",
         image: theCBL,
-        language: "Mern Stack"
+        language: "React Js, Node Js, PostgreSQL"
     },
     {
         id: 3,
         Name: "Al-Buraq",
-        Disc: "This is a simple and clean scorekeeper app to count your points and keep track of your volleyball score.",
+        description: "This is a simple and clean scorekeeper app to count your points and keep track of your volleyball score.",
         Link: "https://alburaqperfume.com/",
         image: Alburaq,
         language: "WordPress"
@@ -46,15 +46,15 @@ const ProjectData = [
     {
         id: 4,
         Name: "Sona Mattresses",
-        Disc: "This is a High quality mattress manufactures and they are supplied all over the india and they provide multiple product of Mattress.",
+        description: "This is a High quality mattress manufactures and they are supplied all over the india and they provide multiple product of Mattress.",
         Link: "https://www.sonamattresses.com/",
         image: sona,
-        language: "NextJs"
+        language: "Next Js"
     },
     {
         id: 5,
         Name: "VirtualEmployee",
-        Disc: "This is a virtual employee compnay and they are help to connect eemployee who need employee.",
+        description: "This is a virtual employee compnay and they are help to connect eemployee who need employee.",
         Link: "https://virtualemployees.uk/",
         image: virtual,
         language: "WordPress"
@@ -62,7 +62,7 @@ const ProjectData = [
     {
         id: 6,
         Name: "Al-Deenar",
-        Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
+        description: "This is a Ecommerce project and client have ladies shoot showroom and they are design own product and sell online customer in all over India",
         Link: "https://aldeenarfashion.com/",
         image: aldeenar,
         language: "WordPress"
@@ -70,7 +70,7 @@ const ProjectData = [
     {
         id: 7,
         Name: "Al-Zidaan",
-        Disc: "This is a Ecommerce project and client have ladies shoot showroom and they are desing own product and sell online customer in all over India",
+        description: "This is a Ecommerce project and client have ladies shoot showroom and they are design own product and sell online customer in all over India",
         Link: "https://alzidaan.in/",
         image: alzidan,
         language: "Shopify"
@@ -79,7 +79,7 @@ const ProjectData = [
     {
         id: 8,
         Name: "WashOn",
-        Disc: "Washon is a laundry service that lets you book a pick up in just 1 minute.",
+        description: "Washon is a laundry service that lets you book a pick up in just 1 minute.",
         Link: "https://www.washon.ae/",
         image: washOn,
         language: "Mern Stack"
@@ -87,15 +87,15 @@ const ProjectData = [
     {
         id: 9,
         Name: "FeesManager",
-        Disc: "This is a desktop application which use to manage student's and staff data in schools and tuition classes and also manage fess and salary of student's and staff.",
+        description: "This is a desktop application which use to manage student's and staff data in schools and tuition classes and also manage fess and salary of student's and staff.",
         Link: "https://www.youtube.com/watch?v=9PxL5w-nd_U",
         image: nasir,
-        language: "Electron JS"
+        language: "Electron Js"
     },
     {
         id: 10,
         Name: "Al-Shifa Mehndi",
-        Disc: "expertly crafted by our team, serves as a powerful lead magnet. It captivates visitors with its engaging design and compelling content, enticing them to take action.",
+        description: "expertly crafted by our team, serves as a powerful lead magnet. It captivates visitors with its engaging design and compelling content, enticing them to take action.",
         Link: "https://al-shifamehndi.netlify.app/",
         image: Mehndi,
         language: "React Js"
@@ -104,7 +104,7 @@ const ProjectData = [
     {
         id: 11,
         Name: "Platform",
-        Disc: "We have creatd custom admin dashboard and theme for out client so can easily manage content on their site",
+        description: "We have creatd custom admin dashboard and theme for out client so can easily manage content on their site",
         Link: "https://platform-pillow.com/",
         image: Platform,
         language: "WordPress"
@@ -112,18 +112,18 @@ const ProjectData = [
     {
         id: 12,
         Name: "Alif School",
-        Disc: "This is a desktop application which use to manage student's and staff data in schools and tuition classes and also manage fess and salary of student's and staff.",
+        description: "This is a desktop application which use to manage student's and staff data in schools and tuition classes and also manage fess and salary of student's and staff.",
         Link: "https://www.youtube.com/watch?v=9PxL5w-nd_U",
         image: Alif,
-        language: "Electron JS"
+        language: "Electron Js"
     },
     {
         id: 13,
         Name: "Sultan Mobile",
-        Disc: "This is a desktop application which use to manage EMI and Phone in Mobile store and also manage fess and salary of student's and staff.",
+        description: "This is a desktop application which use to manage EMI and Phone in Mobile store and also manage fess and salary of student's and staff.",
         Link: "https://www.youtube.com/watch?v=9PxL5w-nd_U",
         image: sultanmobile,
-        language: "Electron JS"
+        language: "Electron Js"
     },
 
 
@@ -163,7 +163,7 @@ export default function Projects() {
                                     <h1 className="text-white font-medium font-popins text-2xl  xl:text-3xl text-center">{Item.Name}</h1>
                                 </div>
                                 <div className="bg-gradient-to-r from-[#1179fc] to-[#dc82fc] space-y-5 flex flex-col justify-center items-center -translate-y-96 group-hover:translate-y-0 duration-500 h-full w-full absolute top-0 ">
-                                    {/* <h2 className="text-white xl:text-xl text-center mx-20">{Item.Disc}</h2> */}
+                                    {/* <h2 className="text-white xl:text-xl text-center mx-20">{Item.description}</h2> */}
                                     <p className="bg-white rounded-full font-semibold px-3 py-1 w-40 text-center">{Item.language}</p>
                                 </div>
                             </div>
