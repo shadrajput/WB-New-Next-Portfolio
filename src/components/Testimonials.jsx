@@ -19,7 +19,7 @@ const testimonials = [
   {
     id: 2,
     content:
-      "'Wellbenix has revolutionized the Washon Laundry Service website. Their technological expertise and thorough comprehension of our company requirements produced a platform that was effective and user-friendly. Our laundry business has experienced significant growth and our clients appreciate the simplicity."
+      "Wellbenix has revolutionized the Washon Laundry Service website. Their technological expertise and thorough comprehension of our company requirements produced a platform that was effective and user-friendly. Our laundry business has experienced significant growth and our clients appreciate the simplicity."
     ,
     author: {
       name: 'Mukesh Prajapati',
