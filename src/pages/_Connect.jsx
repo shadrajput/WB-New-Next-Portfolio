@@ -27,11 +27,6 @@ const Question = [
         question: "What types of systems do you support?",
         Answer: "Increase social reach and productivity with our App Directory, a collection of famous applications like Instagram other web design."
     },
-    {
-        id: 5,
-        question: "Can you provide of all IT Managenment services?",
-        Answer: "Design studio founded in London and expanded our services, and become a multinational firm, offering services and solutions."
-    },
 ]
 export function Connect() {
     const [isLoadingOnSubmit, setIsLoadingOnSubmit] = useState(false);
@@ -83,7 +78,7 @@ export function Connect() {
     return (
         <>
             <Header/>
-            <div id='ContactUs' className="xs:px-10 xs:pt-20 xs:pb-10 xl:px-28 xl:pt-40 flex xs:flex-col lg:flex-row lg:space-y-0 xl:space-y-0 items-start justify-start w-full lg:space-x-10">
+            <div id='contact-us' className="xs:px-10 xs:pt-20 xs:pb-10 xl:px-28 xl:pt-40 flex xs:flex-col lg:flex-row lg:space-y-0 xl:space-y-0 items-start justify-start w-full lg:space-x-10">
                 <div className=" lg:w-[50%] xs:w-ful flex flex-col">
                     <h1 className="font-bold xs:text-3xl xs:text-center xl:text-4xl pb-10">Frequently Asked Question</h1>
                     {

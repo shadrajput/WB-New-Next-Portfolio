@@ -31,19 +31,19 @@ export function Header(props) {
     },
     {
       name: "About Us",
-      link: "/#AboutUs"
+      link: "/#about-us"
     },
     {
-      name: "Service",
-      link: "/#Services"
+      name: "Services",
+      link: "/#services"
     },
     {
       name: "Portfolio",
-      link: "/#Portfolio"
+      link: "/#portfolio"
     },
     {
       name: "Contact Us",
-      link: "/#ContactUs"
+      link: "/#contact-us"
     },
   ]
 

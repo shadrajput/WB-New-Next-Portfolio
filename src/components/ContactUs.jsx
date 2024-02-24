@@ -5,33 +5,6 @@ import emailjs from "emailjs-com"
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Question = [
-    {
-        id: 1,
-        question: "What does having Managed your services provider?",
-        Answer: "Our purpose is to build solutions that remove the barriers preventing peoplefrom doing their best work, and this is at the heart of how we approach our"
-    },
-    {
-        id: 2,
-        question: "What you about say your Business palnning?",
-        Answer: "We encourage every team member to be a whole person. We have a flexible, high trust environment that is focused on doing great work."
-    },
-    {
-        id: 3,
-        question: "You have a unique way of the working in IT?",
-        Answer: "Our purpose is to build solutions that remove barriers preventing people from doing their best work, and this is at the heart."
-    },
-    {
-        id: 4,
-        question: "What types of systems do you support?",
-        Answer: "Increase social reach and productivity with our App Directory, a collection of famous applications like Instagram other web design."
-    },
-    {
-        id: 5,
-        question: "Can you provide of all IT Managenment services?",
-        Answer: "Design studio founded in London and expanded our services, and become a multinational firm, offering services and solutions."
-    },
-]
 export function ContactUs() {
     const [isLoadingOnSubmit, setIsLoadingOnSubmit] = useState(false);
     const [Data, setData] = useState({
